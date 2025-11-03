@@ -1,0 +1,1201 @@
+TID,UID,ID,AGE,MENOS,CHEMO,HORMON,ERS,PGRS,ECOG,TIME,TAFR,LESIONID,LESTYPE,SIZE,ORGAN,T0,ORGAN2
+1,1,1,51,other,Y,Y,Positive,Negative,0,-27,0,1,1,83.2,Liver,-27,Liver
+1,1,1,51,other,Y,Y,Positive,Negative,0,41,68,1,1,117.8,Liver,-27,Liver
+2,2,2,57,postmenopausal,N,Y,UNK,UNK,0,-3,0,1,1,40.1,Liver,-3,Liver
+2,2,2,57,postmenopausal,N,Y,UNK,UNK,0,39,42,1,1,43.8,Liver,-3,Liver
+2,2,2,57,postmenopausal,N,Y,UNK,UNK,0,68,71,1,1,35.8,Liver,-3,Liver
+2,2,2,57,postmenopausal,N,Y,UNK,UNK,0,111,114,1,1,32.5,Liver,-3,Liver
+3,3,3,51,postmenopausal,N,N,UNK,UNK,0,0,0,1,1,56.2,Breast,0,Breast
+3,3,3,51,postmenopausal,N,N,UNK,UNK,0,35,35,1,1,59,Breast,0,Breast
+3,3,3,51,postmenopausal,N,N,UNK,UNK,0,63,63,1,1,56.5,Breast,0,Breast
+3,3,3,51,postmenopausal,N,N,UNK,UNK,0,106,106,1,1,56.5,Breast,0,Breast
+4,4,4,52,other,N,N,UNK,UNK,1,0,0,1,1,58.6,Breast,0,Breast
+4,4,4,52,other,N,N,UNK,UNK,1,35,35,1,1,66.9,Breast,0,Breast
+4,4,4,52,other,N,N,UNK,UNK,1,64,64,1,1,70.1,Breast,0,Breast
+5,5,5,48,other,Y,Y,Positive,UNK,1,-3,0,1,1,47.3,Liver,-3,Liver
+5,5,5,48,other,Y,Y,Positive,UNK,1,40,43,1,1,24.6,Liver,-3,Liver
+5,5,5,48,other,Y,Y,Positive,UNK,1,68,71,1,1,28.2,Liver,-3,Liver
+5,5,5,48,other,Y,Y,Positive,UNK,1,103,106,1,1,20.5,Liver,-3,Liver
+6,6,6,57,other,N,Y,UNK,UNK,1,-32,0,1,1,53.8,Liver,-32,Liver
+6,6,6,57,other,N,Y,UNK,UNK,1,36,68,1,1,60.8,Liver,-32,Liver
+7,7,7,71,other,N,N,Positive,Positive,1,-22,0,1,1,40.5,Soft tissue/chest wall,-22,Soft tissue/chest wall
+7,7,7,71,other,N,N,Positive,Positive,1,37,59,1,1,30.6,Soft tissue/chest wall,-22,Soft tissue/chest wall
+7,7,7,71,other,N,N,Positive,Positive,1,62,84,1,1,28.3,Soft tissue/chest wall,-22,Soft tissue/chest wall
+9,10,10,46,premenopausal,Y,N,UNK,UNK,1,-7,0,1,1,25.8,Liver,-7,Liver
+9,10,10,46,premenopausal,Y,N,UNK,UNK,1,39,46,1,1,41.8,Liver,-7,Liver
+11,13,13,58,other,Y,N,Negative,UNK,1,-14,0,1,1,57.5,Breast,-14,Breast
+11,13,13,58,other,Y,N,Negative,UNK,1,43,57,1,1,56.5,Breast,-14,Breast
+11,13,13,58,other,Y,N,Negative,UNK,1,64,78,1,1,53.2,Breast,-14,Breast
+12,14,14,36,premenopausal,Y,N,Negative,Negative,1,-1,0,1,1,24.6,Lymph nodes,-1,Lymph nodes
+12,14,14,36,premenopausal,Y,N,Negative,Negative,1,34,35,1,1,26.1,Lymph nodes,-1,Lymph nodes
+13,15,15,50,premenopausal,Y,N,UNK,UNK,0,-5,0,1,1,25.6,Liver,-5,Liver
+13,15,15,50,premenopausal,Y,N,UNK,UNK,0,35,40,1,1,21.6,Liver,-5,Liver
+13,15,15,50,premenopausal,Y,N,UNK,UNK,0,63,68,1,1,26.4,Liver,-5,Liver
+13,15,15,50,premenopausal,Y,N,UNK,UNK,0,105,110,1,1,22.7,Liver,-5,Liver
+14,16,16,51,other,Y,N,Negative,UNK,1,16,0,1,1,32.7,Soft tissue/chest wall,16,Soft tissue/chest wall
+14,16,16,51,other,Y,N,Negative,UNK,1,36,20,1,1,29.4,Soft tissue/chest wall,16,Soft tissue/chest wall
+14,16,16,51,other,Y,N,Negative,UNK,1,64,48,1,1,32.8,Soft tissue/chest wall,16,Soft tissue/chest wall
+14,16,16,51,other,Y,N,Negative,UNK,1,80,64,1,1,34.6,Soft tissue/chest wall,16,Soft tissue/chest wall
+15,17,17,41,postmenopausal,Y,N,UNK,UNK,0,-18,0,1,1,46.4,Lymph nodes,-18,Lymph nodes
+15,17,17,41,postmenopausal,Y,N,UNK,UNK,0,43,61,1,1,34.2,Lymph nodes,-18,Lymph nodes
+15,17,17,41,postmenopausal,Y,N,UNK,UNK,0,70,88,1,1,37,Lymph nodes,-18,Lymph nodes
+15,17,17,41,postmenopausal,Y,N,UNK,UNK,0,114,132,1,1,39.3,Lymph nodes,-18,Lymph nodes
+16,18,18,52,other,Y,Y,UNK,UNK,1,0,0,1,1,25.6,Breast,0,Breast
+16,18,18,52,other,Y,Y,UNK,UNK,1,43,43,1,1,23.9,Breast,0,Breast
+17,19,19,63,other,Y,Y,UNK,UNK,1,-5,0,1,1,29.1,Soft tissue/chest wall,-5,Soft tissue/chest wall
+17,19,19,63,other,Y,Y,UNK,UNK,1,36,41,1,1,22.8,Soft tissue/chest wall,-5,Soft tissue/chest wall
+17,19,19,63,other,Y,Y,UNK,UNK,1,64,69,1,1,22.3,Soft tissue/chest wall,-5,Soft tissue/chest wall
+17,19,19,63,other,Y,Y,UNK,UNK,1,110,115,1,1,23.3,Soft tissue/chest wall,-5,Soft tissue/chest wall
+18,21,21,57,other,Y,N,Negative,Negative,0,-4,0,1,1,50.9,Lymph nodes,-4,Lymph nodes
+18,21,21,57,other,Y,N,Negative,Negative,0,64,68,1,1,51.7,Lymph nodes,-4,Lymph nodes
+18,21,21,57,other,Y,N,Negative,Negative,0,106,110,1,1,54.7,Lymph nodes,-4,Lymph nodes
+19,22,22,58,other,N,Y,Positive,UNK,1,-15,0,1,1,89.4,Liver,-15,Liver
+19,22,22,58,other,N,Y,Positive,UNK,1,54,69,1,1,98.6,Liver,-15,Liver
+20,25,25,76,other,N,Y,Positive,Negative,1,-4,0,1,1,116.6,Breast,-4,Breast
+20,25,25,76,other,N,Y,Positive,Negative,1,35,39,1,1,78.5,Breast,-4,Breast
+20,25,25,76,other,N,Y,Positive,Negative,1,65,69,1,1,71.6,Breast,-4,Breast
+20,25,25,76,other,N,Y,Positive,Negative,1,117,121,1,1,68.5,Breast,-4,Breast
+21,26,26,50,postmenopausal,Y,Y,UNK,UNK,1,0,0,1,1,23.5,Breast,0,Breast
+21,26,26,50,postmenopausal,Y,Y,UNK,UNK,1,64,64,1,1,23.9,Breast,0,Breast
+21,26,26,50,postmenopausal,Y,Y,UNK,UNK,1,106,106,1,1,22.6,Breast,0,Breast
+22,28,28,53,other,N,N,UNK,UNK,1,-16,0,1,1,77.4,Lymph nodes,-16,Lymph nodes
+22,28,28,53,other,N,N,UNK,UNK,1,36,52,1,1,79.1,Lymph nodes,-16,Lymph nodes
+22,28,28,53,other,N,N,UNK,UNK,1,83,99,1,1,94.5,Lymph nodes,-16,Lymph nodes
+24,30,30,64,other,Y,N,Negative,Negative,0,-23,0,1,1,31,Lung,-23,Lung
+24,30,30,64,other,Y,N,Negative,Negative,0,35,58,1,1,26.3,Lung,-23,Lung
+24,30,30,64,other,Y,N,Negative,Negative,0,68,91,1,1,22.5,Lung,-23,Lung
+24,30,30,64,other,Y,N,Negative,Negative,0,105,128,1,1,18.4,Lung,-23,Lung
+25,31,31,50,postmenopausal,Y,Y,Positive,Negative,0,-20,0,1,1,23.8,Liver,-20,Liver
+25,31,31,50,postmenopausal,Y,Y,Positive,Negative,0,38,58,1,1,17.6,Liver,-20,Liver
+25,31,31,50,postmenopausal,Y,Y,Positive,Negative,0,63,83,1,1,18.9,Liver,-20,Liver
+26,32,32,42,premenopausal,Y,N,Positive,Positive,0,-2,0,1,1,181.6,Liver,-2,Liver
+26,32,32,42,premenopausal,Y,N,Positive,Positive,0,35,37,1,1,131.4,Liver,-2,Liver
+26,32,32,42,premenopausal,Y,N,Positive,Positive,0,77,79,1,1,143.3,Liver,-2,Liver
+26,32,32,42,premenopausal,Y,N,Positive,Positive,0,120,122,1,1,151.7,Liver,-2,Liver
+27,33,33,54,other,N,Y,UNK,UNK,1,-6,0,1,1,52.2,Liver,-6,Liver
+27,33,33,54,other,N,Y,UNK,UNK,1,36,42,1,1,49.7,Liver,-6,Liver
+27,33,33,54,other,N,Y,UNK,UNK,1,114,120,1,1,85.9,Liver,-6,Liver
+28,34,34,38,postmenopausal,Y,N,UNK,UNK,0,-7,0,1,1,60.8,Liver,-7,Liver
+28,34,34,38,postmenopausal,Y,N,UNK,UNK,0,38,45,1,1,63.4,Liver,-7,Liver
+29,36,36,54,other,Y,N,UNK,UNK,1,0,0,1,1,41.1,Soft tissue/chest wall,0,Soft tissue/chest wall
+29,36,36,54,other,Y,N,UNK,UNK,1,45,45,1,1,43.2,Soft tissue/chest wall,0,Soft tissue/chest wall
+29,36,36,54,other,Y,N,UNK,UNK,1,69,69,1,1,38.5,Soft tissue/chest wall,0,Soft tissue/chest wall
+29,36,36,54,other,Y,N,UNK,UNK,1,112,112,1,1,41,Soft tissue/chest wall,0,Soft tissue/chest wall
+30,38,38,70,other,Y,Y,UNK,UNK,1,6,0,1,1,33.2,Lung,6,Lung
+30,38,38,70,other,Y,Y,UNK,UNK,1,37,31,1,1,34.7,Lung,6,Lung
+30,38,38,70,other,Y,Y,UNK,UNK,1,71,65,1,1,34.6,Lung,6,Lung
+30,38,38,70,other,Y,Y,UNK,UNK,1,115,109,1,1,33.7,Lung,6,Lung
+31,39,39,65,other,Y,Y,Negative,Negative,1,0,0,1,1,28,Liver,0,Liver
+31,39,39,65,other,Y,Y,Negative,Negative,1,39,39,1,1,34,Liver,0,Liver
+31,39,39,65,other,Y,Y,Negative,Negative,1,82,82,1,1,35.9,Liver,0,Liver
+32,40,40,38,postmenopausal,Y,Y,UNK,UNK,2-3,-23,0,1,1,28.9,Liver,-23,Liver
+32,40,40,38,postmenopausal,Y,Y,UNK,UNK,2-3,38,61,1,1,25.5,Liver,-23,Liver
+32,40,40,38,postmenopausal,Y,Y,UNK,UNK,2-3,67,90,1,1,24.5,Liver,-23,Liver
+32,40,40,38,postmenopausal,Y,Y,UNK,UNK,2-3,109,132,1,1,26.5,Liver,-23,Liver
+33,41,41,48,other,Y,N,UNK,UNK,1,-3,0,1,1,85.3,Soft tissue/chest wall,-3,Soft tissue/chest wall
+33,41,41,48,other,Y,N,UNK,UNK,1,38,41,1,1,104.7,Soft tissue/chest wall,-3,Soft tissue/chest wall
+34,42,42,47,postmenopausal,N,N,UNK,UNK,0,-4,0,1,1,23.8,Breast,-4,Breast
+34,42,42,47,postmenopausal,N,N,UNK,UNK,0,44,48,1,1,25.1,Breast,-4,Breast
+34,42,42,47,postmenopausal,N,N,UNK,UNK,0,70,74,1,1,26.5,Breast,-4,Breast
+34,42,42,47,postmenopausal,N,N,UNK,UNK,0,116,120,1,1,27.4,Breast,-4,Breast
+35,44,44,41,premenopausal,N,N,Negative,UNK,1,2,0,1,1,57.3,Lung,2,Lung
+35,44,44,41,premenopausal,N,N,Negative,UNK,1,41,39,1,1,64.5,Lung,2,Lung
+36,45,45,64,other,Y,Y,UNK,UNK,1,-21,0,1,1,25.4,Lymph nodes,-21,Lymph nodes
+36,45,45,64,other,Y,Y,UNK,UNK,1,37,58,1,1,27.3,Lymph nodes,-21,Lymph nodes
+37,46,46,50,postmenopausal,Y,N,Negative,Negative,1,-1,0,1,1,68.9,Liver,-1,Liver
+37,46,46,50,postmenopausal,Y,N,Negative,Negative,1,41,42,1,1,79.7,Liver,-1,Liver
+38,47,47,38,premenopausal,N,N,Positive,Negative,1,-7,0,1,1,44.4,Adrenals,-7,Other
+38,47,47,38,premenopausal,N,N,Positive,Negative,1,34,41,1,1,14.6,Adrenals,-7,Other
+38,47,47,38,premenopausal,N,N,Positive,Negative,1,63,70,1,1,34.5,Adrenals,-7,Other
+38,47,47,38,premenopausal,N,N,Positive,Negative,1,105,112,1,1,40.2,Adrenals,-7,Other
+39,48,48,56,other,Y,Y,UNK,UNK,0,-7,0,1,1,25,Lung,-7,Lung
+39,48,48,56,other,Y,Y,UNK,UNK,0,40,47,1,1,28.6,Lung,-7,Lung
+39,48,48,56,other,Y,Y,UNK,UNK,0,67,74,1,1,29.7,Lung,-7,Lung
+40,49,49,57,other,N,N,UNK,UNK,0,-4,0,1,1,78.4,Liver,-4,Liver
+40,49,49,57,other,N,N,UNK,UNK,0,38,42,1,1,69.8,Liver,-4,Liver
+40,49,49,57,other,N,N,UNK,UNK,0,66,70,1,1,70.9,Liver,-4,Liver
+40,49,49,57,other,N,N,UNK,UNK,0,109,113,1,1,70.1,Liver,-4,Liver
+41,50,50,56,other,Y,Y,UNK,UNK,0,-3,0,1,1,54.1,Breast,-3,Breast
+41,50,50,56,other,Y,Y,UNK,UNK,0,38,41,1,1,48.4,Breast,-3,Breast
+41,50,50,56,other,Y,Y,UNK,UNK,0,73,76,1,1,61.1,Breast,-3,Breast
+41,50,50,56,other,Y,Y,UNK,UNK,0,115,118,1,1,64.3,Breast,-3,Breast
+42,51,51,69,other,N,Y,Positive,Positive,1,-11,0,1,1,22.2,Liver,-11,Liver
+42,51,51,69,other,N,Y,Positive,Positive,1,44,55,1,1,22.2,Liver,-11,Liver
+43,52,52,83,other,Y,Y,UNK,UNK,1,-3,0,1,1,21.6,Soft tissue/chest wall,-3,Soft tissue/chest wall
+43,52,52,83,other,Y,Y,UNK,UNK,1,106,109,1,1,21.2,Soft tissue/chest wall,-3,Soft tissue/chest wall
+44,53,53,71,other,Y,N,Positive,Positive,1,-2,0,1,1,26.3,Soft tissue/chest wall,-2,Soft tissue/chest wall
+44,53,53,71,other,Y,N,Positive,Positive,1,63,65,1,1,23.4,Soft tissue/chest wall,-2,Soft tissue/chest wall
+45,54,54,45,postmenopausal,Y,Y,UNK,UNK,1,-1,0,1,1,25.3,Liver,-1,Liver
+45,54,54,45,postmenopausal,Y,Y,UNK,UNK,1,46,47,1,1,40.7,Liver,-1,Liver
+45,54,54,45,postmenopausal,Y,Y,UNK,UNK,1,71,72,1,1,34.3,Liver,-1,Liver
+46,55,55,63,other,Y,N,UNK,UNK,1,-7,0,1,1,38.7,Breast,-7,Breast
+46,55,55,63,other,Y,N,UNK,UNK,1,38,45,1,1,37,Breast,-7,Breast
+46,55,55,63,other,Y,N,UNK,UNK,1,73,80,1,1,34,Breast,-7,Breast
+46,55,55,63,other,Y,N,UNK,UNK,1,119,126,1,1,34,Breast,-7,Breast
+47,56,56,50,postmenopausal,Y,Y,UNK,UNK,1,0,0,1,1,41.5,Liver,0,Liver
+47,56,56,50,postmenopausal,Y,Y,UNK,UNK,1,41,41,1,1,46.5,Liver,0,Liver
+47,56,56,50,postmenopausal,Y,Y,UNK,UNK,1,68,68,1,1,55.5,Liver,0,Liver
+47,56,56,50,postmenopausal,Y,Y,UNK,UNK,1,112,112,1,1,55.6,Liver,0,Liver
+48,57,57,54,other,N,N,Negative,Negative,0,-8,0,1,1,29.7,Breast,-8,Breast
+48,57,57,54,other,N,N,Negative,Negative,0,36,44,1,1,26.1,Breast,-8,Breast
+48,57,57,54,other,N,N,Negative,Negative,0,64,72,1,1,28.9,Breast,-8,Breast
+48,57,57,54,other,N,N,Negative,Negative,0,106,114,1,1,26.7,Breast,-8,Breast
+49,58,58,59,other,Y,N,Negative,Negative,0,-14,0,1,1,27.8,Soft tissue/chest wall,-14,Soft tissue/chest wall
+49,58,58,59,other,Y,N,Negative,Negative,0,52,66,1,1,19,Soft tissue/chest wall,-14,Soft tissue/chest wall
+49,58,58,59,other,Y,N,Negative,Negative,0,78,92,1,1,11.9,Soft tissue/chest wall,-14,Soft tissue/chest wall
+49,58,58,59,other,Y,N,Negative,Negative,0,108,122,1,1,11.9,Soft tissue/chest wall,-14,Soft tissue/chest wall
+50,59,59,53,other,Y,N,Negative,UNK,0,-7,0,1,1,20.9,Mediastinum,-7,Mediastinum
+50,59,59,53,other,Y,N,Negative,UNK,0,44,51,1,1,24.9,Mediastinum,-7,Mediastinum
+50,59,59,53,other,Y,N,Negative,UNK,0,72,79,1,1,29.7,Mediastinum,-7,Mediastinum
+50,59,59,53,other,Y,N,Negative,UNK,0,114,121,1,1,28,Mediastinum,-7,Mediastinum
+51,60,60,67,other,Y,Y,UNK,UNK,2-3,-8,0,1,1,29.2,Lymph nodes,-8,Lymph nodes
+51,60,60,67,other,Y,Y,UNK,UNK,2-3,36,44,1,1,31.7,Lymph nodes,-8,Lymph nodes
+52,61,61,67,other,Y,Y,Positive,Positive,1,1,0,1,1,64.2,Mediastinum,1,Mediastinum
+52,61,61,67,other,Y,Y,Positive,Positive,1,35,34,1,1,60.5,Mediastinum,1,Mediastinum
+53,62,62,65,other,Y,Y,Negative,Negative,1,-1,0,1,1,27.9,Lymph nodes,-1,Lymph nodes
+53,62,62,65,other,Y,Y,Negative,Negative,1,40,41,1,1,22.1,Lymph nodes,-1,Lymph nodes
+53,62,62,65,other,Y,Y,Negative,Negative,1,71,72,1,1,30.8,Lymph nodes,-1,Lymph nodes
+53,62,62,65,other,Y,Y,Negative,Negative,1,118,119,1,1,31.6,Lymph nodes,-1,Lymph nodes
+54,64,64,38,postmenopausal,Y,Y,UNK,UNK,1,-3,0,1,1,30,Lymph nodes,-3,Lymph nodes
+54,64,64,38,postmenopausal,Y,Y,UNK,UNK,1,41,44,1,1,27.4,Lymph nodes,-3,Lymph nodes
+54,64,64,38,postmenopausal,Y,Y,UNK,UNK,1,64,67,1,1,28.7,Lymph nodes,-3,Lymph nodes
+54,64,64,38,postmenopausal,Y,Y,UNK,UNK,1,105,108,1,1,30.7,Lymph nodes,-3,Lymph nodes
+55,66,66,62,other,Y,Y,UNK,UNK,1,0,0,1,1,31.4,Lung,0,Lung
+55,66,66,62,other,Y,Y,UNK,UNK,1,36,36,1,1,31.1,Lung,0,Lung
+55,66,66,62,other,Y,Y,UNK,UNK,1,66,66,1,1,32.1,Lung,0,Lung
+55,66,66,62,other,Y,Y,UNK,UNK,1,107,107,1,1,30.5,Lung,0,Lung
+56,67,67,73,other,Y,Y,UNK,UNK,1,0,0,1,1,58,Breast,0,Breast
+56,67,67,73,other,Y,Y,UNK,UNK,1,35,35,1,1,41.4,Breast,0,Breast
+56,67,67,73,other,Y,Y,UNK,UNK,1,69,69,1,1,45.7,Breast,0,Breast
+56,67,67,73,other,Y,Y,UNK,UNK,1,124,124,1,1,45.9,Breast,0,Breast
+57,69,69,43,other,N,N,Negative,UNK,0,-5,0,1,1,36.6,Liver,-5,Liver
+57,69,69,43,other,N,N,Negative,UNK,0,36,41,1,1,41.7,Liver,-5,Liver
+57,69,69,43,other,N,N,Negative,UNK,0,64,69,1,1,40.8,Liver,-5,Liver
+58,70,70,51,other,N,Y,UNK,UNK,0,-6,0,1,1,31.7,Lung,-6,Lung
+58,70,70,51,other,N,Y,UNK,UNK,0,36,42,1,1,27.7,Lung,-6,Lung
+58,70,70,51,other,N,Y,UNK,UNK,0,85,91,1,1,28.3,Lung,-6,Lung
+59,71,71,40,premenopausal,Y,N,UNK,UNK,1,-1,0,1,1,27.9,Lymph nodes,-1,Lymph nodes
+59,71,71,40,premenopausal,Y,N,UNK,UNK,1,42,43,1,1,22.1,Lymph nodes,-1,Lymph nodes
+60,72,72,49,premenopausal,Y,N,Negative,Negative,0,-18,0,1,1,47.3,Lymph nodes,-18,Lymph nodes
+60,72,72,49,premenopausal,Y,N,Negative,Negative,0,42,60,1,1,46.2,Lymph nodes,-18,Lymph nodes
+60,72,72,49,premenopausal,Y,N,Negative,Negative,0,84,102,1,1,38,Lymph nodes,-18,Lymph nodes
+61,73,73,55,other,N,N,Positive,Positive,1,0,0,1,1,51,Breast,0,Breast
+61,73,73,55,other,N,N,Positive,Positive,1,41,41,1,1,56,Breast,0,Breast
+61,73,73,55,other,N,N,Positive,Positive,1,69,69,1,1,54.2,Breast,0,Breast
+61,73,73,55,other,N,N,Positive,Positive,1,111,111,1,1,58,Breast,0,Breast
+62,74,74,57,other,Y,N,Negative,Negative,1,-14,0,1,1,20.5,Lymph nodes,-14,Lymph nodes
+62,74,74,57,other,Y,N,Negative,Negative,1,54,68,1,1,21.1,Lymph nodes,-14,Lymph nodes
+62,74,74,57,other,Y,N,Negative,Negative,1,78,92,1,1,22.7,Lymph nodes,-14,Lymph nodes
+63,75,75,32,premenopausal,Y,N,Negative,Negative,0,-8,0,1,1,61.6,Liver,-8,Liver
+63,75,75,32,premenopausal,Y,N,Negative,Negative,0,36,44,1,1,31.4,Liver,-8,Liver
+63,75,75,32,premenopausal,Y,N,Negative,Negative,0,70,78,1,1,16.4,Liver,-8,Liver
+63,75,75,32,premenopausal,Y,N,Negative,Negative,0,111,119,1,1,9.4,Liver,-8,Liver
+64,76,76,47,other,Y,N,UNK,UNK,1,-5,0,1,1,70.6,Lung,-5,Lung
+64,76,76,47,other,Y,N,UNK,UNK,1,47,52,1,1,74.7,Lung,-5,Lung
+64,76,76,47,other,Y,N,UNK,UNK,1,75,80,1,1,70.3,Lung,-5,Lung
+64,76,76,47,other,Y,N,UNK,UNK,1,117,122,1,1,75,Lung,-5,Lung
+67,79,79,64,other,UNK,Y,UNK,UNK,0,-16,0,1,1,65.1,Liver,-16,Liver
+67,79,79,64,other,UNK,Y,UNK,UNK,0,37,53,1,1,53,Liver,-16,Liver
+67,79,79,64,other,UNK,Y,UNK,UNK,0,104,120,1,1,53.7,Liver,-16,Liver
+68,80,80,58,other,Y,N,UNK,UNK,2-3,-6,0,1,1,59.5,Soft tissue/chest wall,-6,Soft tissue/chest wall
+68,80,80,58,other,Y,N,UNK,UNK,2-3,36,42,1,1,53.2,Soft tissue/chest wall,-6,Soft tissue/chest wall
+68,80,80,58,other,Y,N,UNK,UNK,2-3,64,70,1,1,52.6,Soft tissue/chest wall,-6,Soft tissue/chest wall
+68,80,80,58,other,Y,N,UNK,UNK,2-3,108,114,1,1,51.2,Soft tissue/chest wall,-6,Soft tissue/chest wall
+69,81,81,35,postmenopausal,Y,N,Negative,Negative,1,0,0,1,1,68.8,Liver,0,Liver
+69,81,81,35,postmenopausal,Y,N,Negative,Negative,1,37,37,1,1,74.6,Liver,0,Liver
+70,83,83,52,other,Y,N,Negative,Negative,0,-5,0,1,1,37.8,Liver,-5,Liver
+70,83,83,52,other,Y,N,Negative,Negative,0,37,42,1,1,60.5,Liver,-5,Liver
+71,84,84,55,other,N,N,UNK,UNK,1,-3,0,1,1,76.6,Mediastinum,-3,Mediastinum
+71,84,84,55,other,N,N,UNK,UNK,1,44,47,1,1,80.2,Mediastinum,-3,Mediastinum
+72,86,86,61,other,Y,Y,UNK,UNK,1,1,0,1,1,79.4,Liver,1,Liver
+72,86,86,61,other,Y,Y,UNK,UNK,1,38,37,1,1,55.7,Liver,1,Liver
+72,86,86,61,other,Y,Y,UNK,UNK,1,68,67,1,1,59.6,Liver,1,Liver
+72,86,86,61,other,Y,Y,UNK,UNK,1,110,109,1,1,61.6,Liver,1,Liver
+73,88,88,36,postmenopausal,Y,N,UNK,UNK,1,-19,0,1,1,35.2,Liver,-19,Liver
+73,88,88,36,postmenopausal,Y,N,UNK,UNK,1,36,55,1,1,32,Liver,-19,Liver
+73,88,88,36,postmenopausal,Y,N,UNK,UNK,1,64,83,1,1,31.1,Liver,-19,Liver
+74,89,89,55,other,N,Y,UNK,UNK,0,-6,0,1,1,56.8,Soft tissue/chest wall,-6,Soft tissue/chest wall
+74,89,89,55,other,N,Y,UNK,UNK,0,36,42,1,1,53.6,Soft tissue/chest wall,-6,Soft tissue/chest wall
+74,89,89,55,other,N,Y,UNK,UNK,0,62,68,1,1,55.4,Soft tissue/chest wall,-6,Soft tissue/chest wall
+75,90,90,37,premenopausal,Y,N,Negative,Negative,1,-18,0,1,1,40.8,Lung,-18,Lung
+75,90,90,37,premenopausal,Y,N,Negative,Negative,1,45,63,1,1,29,Lung,-18,Lung
+76,91,91,55,other,N,N,UNK,UNK,0,-27,0,1,1,84.8,Soft tissue/chest wall,-27,Soft tissue/chest wall
+76,91,91,55,other,N,N,UNK,UNK,0,35,62,1,1,81.7,Soft tissue/chest wall,-27,Soft tissue/chest wall
+76,91,91,55,other,N,N,UNK,UNK,0,68,95,1,1,70.2,Soft tissue/chest wall,-27,Soft tissue/chest wall
+77,92,92,66,other,Y,N,Negative,UNK,1,-3,0,1,1,20.2,Lymph nodes,-3,Lymph nodes
+77,92,92,66,other,Y,N,Negative,UNK,1,39,42,1,1,17,Lymph nodes,-3,Lymph nodes
+77,92,92,66,other,Y,N,Negative,UNK,1,69,72,1,1,17,Lymph nodes,-3,Lymph nodes
+77,92,92,66,other,Y,N,Negative,UNK,1,89,92,1,1,20.1,Lymph nodes,-3,Lymph nodes
+78,94,94,41,other,Y,N,Positive,Positive,0,-12,0,1,1,31,Liver,-12,Liver
+78,94,94,41,other,Y,N,Positive,Positive,0,40,52,1,1,33.4,Liver,-12,Liver
+79,95,95,52,other,Y,N,Negative,Negative,1,-3,0,1,1,32.4,Lung,-3,Lung
+79,95,95,52,other,Y,N,Negative,Negative,1,50,53,1,1,22.7,Lung,-3,Lung
+79,95,95,52,other,Y,N,Negative,Negative,1,77,80,1,1,30.3,Lung,-3,Lung
+79,95,95,52,other,Y,N,Negative,Negative,1,119,122,1,1,29.9,Lung,-3,Lung
+80,96,96,44,premenopausal,Y,N,Negative,Negative,1,-6,0,1,1,57.1,Mediastinum,-6,Mediastinum
+80,96,96,44,premenopausal,Y,N,Negative,Negative,1,36,42,1,1,64.6,Mediastinum,-6,Mediastinum
+80,96,96,44,premenopausal,Y,N,Negative,Negative,1,60,66,1,1,63.8,Mediastinum,-6,Mediastinum
+81,97,97,57,other,N,Y,Positive,Positive,1,-30,0,1,1,40.3,Lymph nodes,-30,Lymph nodes
+81,97,97,57,other,N,Y,Positive,Positive,1,42,72,1,1,36.4,Lymph nodes,-30,Lymph nodes
+81,97,97,57,other,N,Y,Positive,Positive,1,63,93,1,1,37.2,Lymph nodes,-30,Lymph nodes
+81,97,97,57,other,N,Y,Positive,Positive,1,103,133,1,1,36.1,Lymph nodes,-30,Lymph nodes
+82,98,98,51,postmenopausal,N,N,UNK,UNK,1,-3,0,1,1,27.5,Liver,-3,Liver
+82,98,98,51,postmenopausal,N,N,UNK,UNK,1,35,38,1,1,21.4,Liver,-3,Liver
+82,98,98,51,postmenopausal,N,N,UNK,UNK,1,62,65,1,1,22.1,Liver,-3,Liver
+82,98,98,51,postmenopausal,N,N,UNK,UNK,1,111,114,1,1,22.5,Liver,-3,Liver
+83,99,99,63,other,N,Y,Positive,UNK,0,-7,0,1,1,39.6,Mediastinum,-7,Mediastinum
+83,99,99,63,other,N,Y,Positive,UNK,0,35,42,1,1,32.4,Mediastinum,-7,Mediastinum
+83,99,99,63,other,N,Y,Positive,UNK,0,64,71,1,1,32.7,Mediastinum,-7,Mediastinum
+83,99,99,63,other,N,Y,Positive,UNK,0,106,113,1,1,34.7,Mediastinum,-7,Mediastinum
+84,100,100,54,other,Y,Y,UNK,UNK,1,-4,0,1,1,54.3,Mediastinum,-4,Mediastinum
+84,100,100,54,other,Y,Y,UNK,UNK,1,38,42,1,1,57.9,Mediastinum,-4,Mediastinum
+84,100,100,54,other,Y,Y,UNK,UNK,1,69,73,1,1,57.6,Mediastinum,-4,Mediastinum
+84,100,100,54,other,Y,Y,UNK,UNK,1,111,115,1,1,59.2,Mediastinum,-4,Mediastinum
+87,103,103,59,other,Y,Y,Positive,UNK,0,15,0,1,1,21.9,Lymph nodes,15,Lymph nodes
+87,103,103,59,other,Y,Y,Positive,UNK,0,36,21,1,1,22.8,Lymph nodes,15,Lymph nodes
+87,103,103,59,other,Y,Y,Positive,UNK,0,63,48,1,1,24,Lymph nodes,15,Lymph nodes
+87,103,103,59,other,Y,Y,Positive,UNK,0,105,90,1,1,18.7,Lymph nodes,15,Lymph nodes
+88,104,104,44,postmenopausal,Y,Y,Positive,Positive,1,-3,0,1,1,23,Liver,-3,Liver
+88,104,104,44,postmenopausal,Y,Y,Positive,Positive,1,91,94,1,1,19.7,Liver,-3,Liver
+89,105,105,76,other,N,N,UNK,UNK,1,0,0,1,1,52.1,Breast,0,Breast
+89,105,105,76,other,N,N,UNK,UNK,1,31,31,1,1,50.9,Breast,0,Breast
+89,105,105,76,other,N,N,UNK,UNK,1,64,64,1,1,47.3,Breast,0,Breast
+89,105,105,76,other,N,N,UNK,UNK,1,87,87,1,1,61,Breast,0,Breast
+90,106,106,48,premenopausal,N,N,UNK,UNK,1,-1,0,1,1,26.1,Lung,-1,Lung
+90,106,106,48,premenopausal,N,N,UNK,UNK,1,45,46,1,1,13.8,Lung,-1,Lung
+90,106,106,48,premenopausal,N,N,UNK,UNK,1,66,67,1,1,19.6,Lung,-1,Lung
+91,108,108,57,other,N,N,Negative,UNK,1,-6,0,1,1,35.2,Lung,-6,Lung
+91,108,108,57,other,N,N,Negative,UNK,1,36,42,1,1,18.7,Lung,-6,Lung
+91,108,108,57,other,N,N,Negative,UNK,1,64,70,1,1,15.2,Lung,-6,Lung
+91,108,108,57,other,N,N,Negative,UNK,1,106,112,1,1,11.8,Lung,-6,Lung
+92,109,109,41,premenopausal,Y,N,Negative,UNK,1,-11,0,1,1,30.2,Liver,-11,Liver
+92,109,109,41,premenopausal,Y,N,Negative,UNK,1,35,46,1,1,21.8,Liver,-11,Liver
+92,109,109,41,premenopausal,Y,N,Negative,UNK,1,65,76,1,1,24.5,Liver,-11,Liver
+92,109,109,41,premenopausal,Y,N,Negative,UNK,1,108,119,1,1,27.8,Liver,-11,Liver
+93,110,110,38,other,Y,N,UNK,UNK,0,-5,0,1,1,21.5,Lymph nodes,-5,Lymph nodes
+93,110,110,38,other,Y,N,UNK,UNK,0,36,41,1,1,10.6,Lymph nodes,-5,Lymph nodes
+93,110,110,38,other,Y,N,UNK,UNK,0,64,69,1,1,11.1,Lymph nodes,-5,Lymph nodes
+93,110,110,38,other,Y,N,UNK,UNK,0,106,111,1,1,11.6,Lymph nodes,-5,Lymph nodes
+94,111,111,70,other,Y,Y,UNK,UNK,1,-9,0,1,1,30.6,Breast,-9,Breast
+94,111,111,70,other,Y,Y,UNK,UNK,1,38,47,1,1,30.8,Breast,-9,Breast
+94,111,111,70,other,Y,Y,UNK,UNK,1,66,75,1,1,32.1,Breast,-9,Breast
+94,111,111,70,other,Y,Y,UNK,UNK,1,110,119,1,1,27.5,Breast,-9,Breast
+95,113,113,47,postmenopausal,Y,Y,UNK,UNK,0,-2,0,1,1,20.5,Lung,-2,Lung
+95,113,113,47,postmenopausal,Y,Y,UNK,UNK,0,37,39,1,1,14.4,Lung,-2,Lung
+95,113,113,47,postmenopausal,Y,Y,UNK,UNK,0,78,80,1,1,15.3,Lung,-2,Lung
+95,113,113,47,postmenopausal,Y,Y,UNK,UNK,0,121,123,1,1,9.7,Lung,-2,Lung
+96,114,114,43,postmenopausal,Y,N,Positive,Negative,0,-3,0,1,1,68.7,Breast,-3,Breast
+96,114,114,43,postmenopausal,Y,N,Positive,Negative,0,36,39,1,1,73.7,Breast,-3,Breast
+97,115,115,55,other,Y,Y,Positive,Negative,0,3,0,1,1,28.4,Liver,3,Liver
+97,115,115,55,other,Y,Y,Positive,Negative,0,45,42,1,1,23.6,Liver,3,Liver
+97,115,115,55,other,Y,Y,Positive,Negative,0,87,84,1,1,18.5,Liver,3,Liver
+97,115,115,55,other,Y,Y,Positive,Negative,0,134,131,1,1,15.4,Liver,3,Liver
+98,116,116,43,premenopausal,Y,N,UNK,UNK,0,0,0,1,1,25,Breast,0,Breast
+98,116,116,43,premenopausal,Y,N,UNK,UNK,0,38,38,1,1,25.3,Breast,0,Breast
+98,116,116,43,premenopausal,Y,N,UNK,UNK,0,70,70,1,1,24,Breast,0,Breast
+98,116,116,43,premenopausal,Y,N,UNK,UNK,0,121,121,1,1,22,Breast,0,Breast
+100,119,119,47,other,N,N,UNK,UNK,1,-12,0,1,1,21.8,Liver,-12,Liver
+100,119,119,47,other,N,N,UNK,UNK,1,36,48,1,1,21.2,Liver,-12,Liver
+101,122,122,56,other,Y,N,Negative,Negative,1,0,0,1,1,51.5,Breast,0,Breast
+101,122,122,56,other,Y,N,Negative,Negative,1,41,41,1,1,47.2,Breast,0,Breast
+102,125,125,49,other,Y,Y,Negative,Negative,1,0,0,1,1,27.1,Lung,0,Lung
+102,125,125,49,other,Y,Y,Negative,Negative,1,36,36,1,1,20.4,Lung,0,Lung
+102,125,125,49,other,Y,Y,Negative,Negative,1,64,64,1,1,17.9,Lung,0,Lung
+102,125,125,49,other,Y,Y,Negative,Negative,1,106,106,1,1,12.2,Lung,0,Lung
+103,126,126,63,other,Y,Y,Positive,Negative,1,-3,0,1,1,31.3,Lung,-3,Lung
+103,126,126,63,other,Y,Y,Positive,Negative,1,32,35,1,1,30.6,Lung,-3,Lung
+104,127,127,48,other,Y,N,UNK,UNK,1,-6,0,1,1,33.2,Breast,-6,Breast
+104,127,127,48,other,Y,N,UNK,UNK,1,42,48,1,1,33.5,Breast,-6,Breast
+104,127,127,48,other,Y,N,UNK,UNK,1,64,70,1,1,34.1,Breast,-6,Breast
+106,129,129,52,other,Y,N,UNK,UNK,1,0,0,1,1,46.8,Liver,0,Liver
+106,129,129,52,other,Y,N,UNK,UNK,1,36,36,1,1,40.7,Liver,0,Liver
+107,130,130,50,premenopausal,N,N,UNK,UNK,0,-18,0,1,1,23,Lymph nodes,-18,Lymph nodes
+107,130,130,50,premenopausal,N,N,UNK,UNK,0,36,54,1,1,20.7,Lymph nodes,-18,Lymph nodes
+107,130,130,50,premenopausal,N,N,UNK,UNK,0,64,82,1,1,17.5,Lymph nodes,-18,Lymph nodes
+107,130,130,50,premenopausal,N,N,UNK,UNK,0,106,124,1,1,13,Lymph nodes,-18,Lymph nodes
+108,131,131,65,other,N,Y,UNK,UNK,0,-4,0,1,1,58.7,Mediastinum,-4,Mediastinum
+108,131,131,65,other,N,Y,UNK,UNK,0,39,43,1,1,56.4,Mediastinum,-4,Mediastinum
+108,131,131,65,other,N,Y,UNK,UNK,0,67,71,1,1,44.4,Mediastinum,-4,Mediastinum
+108,131,131,65,other,N,Y,UNK,UNK,0,109,113,1,1,41.1,Mediastinum,-4,Mediastinum
+110,134,134,47,postmenopausal,Y,Y,UNK,UNK,0,0,0,1,1,48.9,Breast,0,Breast
+110,134,134,47,postmenopausal,Y,Y,UNK,UNK,0,34,34,1,1,48.6,Breast,0,Breast
+110,134,134,47,postmenopausal,Y,Y,UNK,UNK,0,62,62,1,1,48.9,Breast,0,Breast
+110,134,134,47,postmenopausal,Y,Y,UNK,UNK,0,115,115,1,1,57.5,Breast,0,Breast
+111,135,135,60,other,Y,Y,UNK,UNK,1,-31,0,1,1,24.1,Lymph nodes,-31,Lymph nodes
+111,135,135,60,other,Y,Y,UNK,UNK,1,35,66,1,1,20.4,Lymph nodes,-31,Lymph nodes
+111,135,135,60,other,Y,Y,UNK,UNK,1,78,109,1,1,20.4,Lymph nodes,-31,Lymph nodes
+111,135,135,60,other,Y,Y,UNK,UNK,1,124,155,1,1,14.5,Lymph nodes,-31,Lymph nodes
+113,138,138,51,other,Y,N,UNK,UNK,1,-5,0,1,1,46.2,Breast,-5,Breast
+113,138,138,51,other,Y,N,UNK,UNK,1,35,40,1,1,34.1,Breast,-5,Breast
+113,138,138,51,other,Y,N,UNK,UNK,1,64,69,1,1,25.9,Breast,-5,Breast
+113,138,138,51,other,Y,N,UNK,UNK,1,108,113,1,1,20.6,Breast,-5,Breast
+114,141,141,73,other,Y,Y,Positive,UNK,0,-1,0,1,1,33,Liver,-1,Liver
+114,141,141,73,other,Y,Y,Positive,UNK,0,41,42,1,1,26.2,Liver,-1,Liver
+114,141,141,73,other,Y,Y,Positive,UNK,0,63,64,1,1,23.7,Liver,-1,Liver
+114,141,141,73,other,Y,Y,Positive,UNK,0,102,103,1,1,21.9,Liver,-1,Liver
+115,144,144,42,premenopausal,Y,Y,Positive,UNK,0,-1,0,1,1,94.8,Liver,-1,Liver
+115,144,144,42,premenopausal,Y,Y,Positive,UNK,0,45,46,1,1,91.7,Liver,-1,Liver
+115,144,144,42,premenopausal,Y,Y,Positive,UNK,0,73,74,1,1,105.6,Liver,-1,Liver
+115,144,144,42,premenopausal,Y,Y,Positive,UNK,0,115,116,1,1,117.8,Liver,-1,Liver
+116,145,145,50,postmenopausal,Y,Y,UNK,UNK,0,-6,0,1,1,40.6,Breast,-6,Breast
+116,145,145,50,postmenopausal,Y,Y,UNK,UNK,0,43,49,1,1,40.1,Breast,-6,Breast
+116,145,145,50,postmenopausal,Y,Y,UNK,UNK,0,72,78,1,1,39.5,Breast,-6,Breast
+116,145,145,50,postmenopausal,Y,Y,UNK,UNK,0,125,131,1,1,38.8,Breast,-6,Breast
+117,148,148,53,other,Y,N,UNK,UNK,1,-7,0,1,1,36.1,Soft tissue/chest wall,-7,Soft tissue/chest wall
+117,148,148,53,other,Y,N,UNK,UNK,1,34,41,1,1,38,Soft tissue/chest wall,-7,Soft tissue/chest wall
+118,150,150,51,postmenopausal,Y,N,UNK,UNK,1,-3,0,1,1,30.5,Liver,-3,Liver
+118,150,150,51,postmenopausal,Y,N,UNK,UNK,1,37,40,1,1,29,Liver,-3,Liver
+118,150,150,51,postmenopausal,Y,N,UNK,UNK,1,67,70,1,1,35.3,Liver,-3,Liver
+118,150,150,51,postmenopausal,Y,N,UNK,UNK,1,109,112,1,1,36.9,Liver,-3,Liver
+119,152,152,46,premenopausal,Y,N,Negative,Negative,1,-3,0,1,1,23.1,Mediastinum,-3,Mediastinum
+119,152,152,46,premenopausal,Y,N,Negative,Negative,1,39,42,1,1,26,Mediastinum,-3,Mediastinum
+119,152,152,46,premenopausal,Y,N,Negative,Negative,1,67,70,1,1,24.4,Mediastinum,-3,Mediastinum
+119,152,152,46,premenopausal,Y,N,Negative,Negative,1,111,114,1,1,23.1,Mediastinum,-3,Mediastinum
+120,153,153,48,premenopausal,N,N,UNK,UNK,1,-11,0,1,1,69.2,Soft tissue/chest wall,-11,Soft tissue/chest wall
+120,153,153,48,premenopausal,N,N,UNK,UNK,1,38,49,1,1,69.2,Soft tissue/chest wall,-11,Soft tissue/chest wall
+120,153,153,48,premenopausal,N,N,UNK,UNK,1,67,78,1,1,46.6,Soft tissue/chest wall,-11,Soft tissue/chest wall
+120,153,153,48,premenopausal,N,N,UNK,UNK,1,108,119,1,1,49.7,Soft tissue/chest wall,-11,Soft tissue/chest wall
+121,154,154,48,other,Y,N,UNK,UNK,1,-14,0,1,1,32.2,Soft tissue/chest wall,-14,Soft tissue/chest wall
+121,154,154,48,other,Y,N,UNK,UNK,1,37,51,1,1,24.3,Soft tissue/chest wall,-14,Soft tissue/chest wall
+121,154,154,48,other,Y,N,UNK,UNK,1,65,79,1,1,24.1,Soft tissue/chest wall,-14,Soft tissue/chest wall
+121,154,154,48,other,Y,N,UNK,UNK,1,106,120,1,1,9.2,Soft tissue/chest wall,-14,Soft tissue/chest wall
+122,159,159,40,postmenopausal,Y,Y,UNK,UNK,1,-16,0,1,1,27.7,Liver,-16,Liver
+122,159,159,40,postmenopausal,Y,Y,UNK,UNK,1,35,51,1,1,33.6,Liver,-16,Liver
+122,159,159,40,postmenopausal,Y,Y,UNK,UNK,1,61,77,1,1,40.6,Liver,-16,Liver
+123,160,160,49,postmenopausal,Y,Y,UNK,UNK,1,0,0,1,1,30.4,Liver,0,Liver
+123,160,160,49,postmenopausal,Y,Y,UNK,UNK,1,39,39,1,1,30,Liver,0,Liver
+123,160,160,49,postmenopausal,Y,Y,UNK,UNK,1,68,68,1,1,25.5,Liver,0,Liver
+123,160,160,49,postmenopausal,Y,Y,UNK,UNK,1,111,111,1,1,22,Liver,0,Liver
+124,161,161,42,postmenopausal,Y,N,Negative,Negative,0,0,0,1,1,42.1,Liver,0,Liver
+124,161,161,42,postmenopausal,Y,N,Negative,Negative,0,49,49,1,1,46.8,Liver,0,Liver
+125,163,163,66,other,Y,Y,UNK,UNK,1,-8,0,1,1,115.2,Breast,-8,Breast
+125,163,163,66,other,Y,Y,UNK,UNK,1,35,43,1,1,75.3,Breast,-8,Breast
+125,163,163,66,other,Y,Y,UNK,UNK,1,69,77,1,1,85.3,Breast,-8,Breast
+126,165,165,70,other,Y,N,UNK,UNK,0,-1,0,1,1,37.2,Breast,-1,Breast
+126,165,165,70,other,Y,N,UNK,UNK,0,41,42,1,1,38.1,Breast,-1,Breast
+126,165,165,70,other,Y,N,UNK,UNK,0,77,78,1,1,37.2,Breast,-1,Breast
+126,165,165,70,other,Y,N,UNK,UNK,0,118,119,1,1,45.4,Breast,-1,Breast
+127,166,166,70,other,Y,Y,Negative,UNK,1,-14,0,1,1,20.7,Lymph nodes,-14,Lymph nodes
+127,166,166,70,other,Y,Y,Negative,UNK,1,35,49,1,1,23.4,Lymph nodes,-14,Lymph nodes
+127,166,166,70,other,Y,Y,Negative,UNK,1,61,75,1,1,26,Lymph nodes,-14,Lymph nodes
+127,166,166,70,other,Y,Y,Negative,UNK,1,105,119,1,1,27.6,Lymph nodes,-14,Lymph nodes
+129,168,168,51,other,Y,N,Negative,UNK,0,-2,0,1,1,26.7,Lymph nodes,-2,Lymph nodes
+129,168,168,51,other,Y,N,Negative,UNK,0,35,37,1,1,21.9,Lymph nodes,-2,Lymph nodes
+129,168,168,51,other,Y,N,Negative,UNK,0,67,69,1,1,14.4,Lymph nodes,-2,Lymph nodes
+130,170,170,72,other,Y,Y,UNK,UNK,1,-1,0,1,1,22.1,Lymph nodes,-1,Lymph nodes
+130,170,170,72,other,Y,Y,UNK,UNK,1,38,39,1,1,15.4,Lymph nodes,-1,Lymph nodes
+130,170,170,72,other,Y,Y,UNK,UNK,1,65,66,1,1,27.9,Lymph nodes,-1,Lymph nodes
+130,170,170,72,other,Y,Y,UNK,UNK,1,107,108,1,1,22.8,Lymph nodes,-1,Lymph nodes
+132,172,172,52,postmenopausal,Y,Y,UNK,UNK,1,-1,0,1,1,27.9,Breast,-1,Breast
+132,172,172,52,postmenopausal,Y,Y,UNK,UNK,1,36,37,1,1,25.6,Breast,-1,Breast
+132,172,172,52,postmenopausal,Y,Y,UNK,UNK,1,66,67,1,1,28.5,Breast,-1,Breast
+132,172,172,52,postmenopausal,Y,Y,UNK,UNK,1,108,109,1,1,27.8,Breast,-1,Breast
+133,174,174,67,other,N,Y,Positive,Positive,1,-14,0,1,1,28.8,Liver,-14,Liver
+133,174,174,67,other,N,Y,Positive,Positive,1,43,57,1,1,31.7,Liver,-14,Liver
+134,176,176,63,other,Y,N,Negative,UNK,1,-27,0,1,1,20.5,Liver,-27,Liver
+134,176,176,63,other,Y,N,Negative,UNK,1,36,63,1,1,22.3,Liver,-27,Liver
+134,176,176,63,other,Y,N,Negative,UNK,1,64,91,1,1,26.9,Liver,-27,Liver
+134,176,176,63,other,Y,N,Negative,UNK,1,104,131,1,1,28,Liver,-27,Liver
+135,177,177,59,other,Y,N,UNK,UNK,1,-6,0,1,1,26.9,Adrenals,-6,Other
+135,177,177,59,other,Y,N,UNK,UNK,1,34,40,1,1,25.4,Adrenals,-6,Other
+135,177,177,59,other,Y,N,UNK,UNK,1,57,63,1,1,26.1,Adrenals,-6,Other
+135,177,177,59,other,Y,N,UNK,UNK,1,103,109,1,1,26.2,Adrenals,-6,Other
+136,178,178,64,other,Y,Y,UNK,UNK,0,-6,0,1,1,62.2,Breast,-6,Breast
+136,178,178,64,other,Y,Y,UNK,UNK,0,34,40,1,1,61.5,Breast,-6,Breast
+136,178,178,64,other,Y,Y,UNK,UNK,0,63,69,1,1,58.2,Breast,-6,Breast
+137,179,179,61,other,Y,Y,Positive,Positive,0,-7,0,1,1,38,Lung,-7,Lung
+137,179,179,61,other,Y,Y,Positive,Positive,0,36,43,1,1,37.2,Lung,-7,Lung
+137,179,179,61,other,Y,Y,Positive,Positive,0,71,78,1,1,37.4,Lung,-7,Lung
+137,179,179,61,other,Y,Y,Positive,Positive,0,118,125,1,1,39.4,Lung,-7,Lung
+138,180,180,46,other,Y,Y,UNK,UNK,1,0,0,1,1,71.3,Lymph nodes,0,Lymph nodes
+138,180,180,46,other,Y,Y,UNK,UNK,1,38,38,1,1,58.6,Lymph nodes,0,Lymph nodes
+138,180,180,46,other,Y,Y,UNK,UNK,1,66,66,1,1,43.4,Lymph nodes,0,Lymph nodes
+138,180,180,46,other,Y,Y,UNK,UNK,1,107,107,1,1,51.7,Lymph nodes,0,Lymph nodes
+139,181,181,64,other,N,Y,UNK,UNK,0,-21,0,1,1,24.6,Lung,-21,Lung
+139,181,181,64,other,N,Y,UNK,UNK,0,36,57,1,1,27.63,Lung,-21,Lung
+139,181,181,64,other,N,Y,UNK,UNK,0,64,85,1,1,27.1,Lung,-21,Lung
+140,182,182,47,other,Y,Y,UNK,UNK,1,-5,0,1,1,38.3,Liver,-5,Liver
+140,182,182,47,other,Y,Y,UNK,UNK,1,40,45,1,1,24.3,Liver,-5,Liver
+140,182,182,47,other,Y,Y,UNK,UNK,1,68,73,1,1,32.1,Liver,-5,Liver
+140,182,182,47,other,Y,Y,UNK,UNK,1,112,117,1,1,24.6,Liver,-5,Liver
+141,183,183,52,other,Y,Y,UNK,UNK,1,-5,0,1,1,30.4,Liver,-5,Liver
+141,183,183,52,other,Y,Y,UNK,UNK,1,35,40,1,1,41.7,Liver,-5,Liver
+141,183,183,52,other,Y,Y,UNK,UNK,1,63,68,1,1,43.2,Liver,-5,Liver
+142,184,184,54,other,N,Y,UNK,UNK,1,-22,0,1,1,28.7,Lymph nodes,-22,Lymph nodes
+142,184,184,54,other,N,Y,UNK,UNK,1,37,59,1,1,21.4,Lymph nodes,-22,Lymph nodes
+142,184,184,54,other,N,Y,UNK,UNK,1,65,87,1,1,23.6,Lymph nodes,-22,Lymph nodes
+142,184,184,54,other,N,Y,UNK,UNK,1,114,136,1,1,30.1,Lymph nodes,-22,Lymph nodes
+143,185,185,49,premenopausal,N,N,UNK,UNK,0,-8,0,1,1,34.5,Liver,-8,Liver
+143,185,185,49,premenopausal,N,N,UNK,UNK,0,38,46,1,1,30.3,Liver,-8,Liver
+143,185,185,49,premenopausal,N,N,UNK,UNK,0,66,74,1,1,35,Liver,-8,Liver
+143,185,185,49,premenopausal,N,N,UNK,UNK,0,116,124,1,1,48.5,Liver,-8,Liver
+144,187,187,74,other,Y,N,Negative,Negative,0,-2,0,1,1,29.4,Lung,-2,Lung
+144,187,187,74,other,Y,N,Negative,Negative,0,40,42,1,1,23.7,Lung,-2,Lung
+144,187,187,74,other,Y,N,Negative,Negative,0,68,70,1,1,22.1,Lung,-2,Lung
+144,187,187,74,other,Y,N,Negative,Negative,0,110,112,1,1,19.9,Lung,-2,Lung
+145,188,188,82,other,N,Y,Positive,Positive,1,-30,0,1,1,36.6,Liver,-30,Liver
+145,188,188,82,other,N,Y,Positive,Positive,1,40,70,1,1,29.6,Liver,-30,Liver
+145,188,188,82,other,N,Y,Positive,Positive,1,70,100,1,1,28.9,Liver,-30,Liver
+146,189,189,54,other,Y,Y,UNK,UNK,1,-4,0,1,1,47,Liver,-4,Liver
+146,189,189,54,other,Y,Y,UNK,UNK,1,38,42,1,1,43.7,Liver,-4,Liver
+146,189,189,54,other,Y,Y,UNK,UNK,1,69,73,1,1,48.6,Liver,-4,Liver
+146,189,189,54,other,Y,Y,UNK,UNK,1,116,120,1,1,47.7,Liver,-4,Liver
+147,191,191,66,other,Y,Y,UNK,UNK,0,-2,0,1,1,16.9,Liver,-2,Liver
+147,191,191,66,other,Y,Y,UNK,UNK,0,73,75,1,1,16.2,Liver,-2,Liver
+148,195,195,45,postmenopausal,Y,N,UNK,UNK,1,-2,0,1,1,45.9,Lymph nodes,-2,Lymph nodes
+148,195,195,45,postmenopausal,Y,N,UNK,UNK,1,38,40,1,1,45.8,Lymph nodes,-2,Lymph nodes
+148,195,195,45,postmenopausal,Y,N,UNK,UNK,1,66,68,1,1,43.7,Lymph nodes,-2,Lymph nodes
+149,197,197,52,premenopausal,Y,N,UNK,UNK,1,0,0,1,1,63.6,Lymph nodes,0,Lymph nodes
+149,197,197,52,premenopausal,Y,N,UNK,UNK,1,36,36,1,1,57.7,Lymph nodes,0,Lymph nodes
+149,197,197,52,premenopausal,Y,N,UNK,UNK,1,65,65,1,1,45.4,Lymph nodes,0,Lymph nodes
+149,197,197,52,premenopausal,Y,N,UNK,UNK,1,108,108,1,1,23.6,Lymph nodes,0,Lymph nodes
+150,198,198,46,other,Y,Y,UNK,UNK,1,0,0,1,1,69.2,Breast,0,Breast
+150,198,198,46,other,Y,Y,UNK,UNK,1,36,36,1,1,71.2,Breast,0,Breast
+150,198,198,46,other,Y,Y,UNK,UNK,1,64,64,1,1,69.9,Breast,0,Breast
+150,198,198,46,other,Y,Y,UNK,UNK,1,106,106,1,1,67.9,Breast,0,Breast
+151,199,199,52,other,N,N,UNK,UNK,1,-20,0,1,1,35.7,Breast,-20,Breast
+151,199,199,52,other,N,N,UNK,UNK,1,39,59,1,1,29.4,Breast,-20,Breast
+151,199,199,52,other,N,N,UNK,UNK,1,64,84,1,1,37.3,Breast,-20,Breast
+151,199,199,52,other,N,N,UNK,UNK,1,109,129,1,1,33,Breast,-20,Breast
+152,200,200,58,other,Y,Y,Negative,Positive,1,-8,0,1,1,25,Lymph nodes,-8,Lymph nodes
+152,200,200,58,other,Y,Y,Negative,Positive,1,36,44,1,1,25.7,Lymph nodes,-8,Lymph nodes
+152,200,200,58,other,Y,Y,Negative,Positive,1,106,114,1,1,27.6,Lymph nodes,-8,Lymph nodes
+153,204,204,57,other,Y,Y,UNK,UNK,0,2,0,1,1,105.9,Liver,2,Liver
+153,204,204,57,other,Y,Y,UNK,UNK,0,52,50,1,1,57.9,Liver,2,Liver
+153,204,204,57,other,Y,Y,UNK,UNK,0,112,110,1,1,56,Liver,2,Liver
+154,205,205,54,other,N,Y,UNK,UNK,1,-7,0,1,1,58.3,Soft tissue/chest wall,-7,Soft tissue/chest wall
+154,205,205,54,other,N,Y,UNK,UNK,1,34,41,1,1,59.6,Soft tissue/chest wall,-7,Soft tissue/chest wall
+155,206,206,42,premenopausal,Y,N,UNK,UNK,0,-4,0,1,1,18.5,Lung,-4,Lung
+155,206,206,42,premenopausal,Y,N,UNK,UNK,0,38,42,1,1,15.6,Lung,-4,Lung
+156,207,207,46,postmenopausal,Y,N,UNK,UNK,1,-3,0,1,1,29.6,Liver,-3,Liver
+156,207,207,46,postmenopausal,Y,N,UNK,UNK,1,37,40,1,1,29.1,Liver,-3,Liver
+156,207,207,46,postmenopausal,Y,N,UNK,UNK,1,66,69,1,1,23.9,Liver,-3,Liver
+156,207,207,46,postmenopausal,Y,N,UNK,UNK,1,101,104,1,1,29,Liver,-3,Liver
+157,208,208,36,premenopausal,Y,N,Positive,Negative,0,-4,0,1,1,26.8,Liver,-4,Liver
+157,208,208,36,premenopausal,Y,N,Positive,Negative,0,45,49,1,1,30.3,Liver,-4,Liver
+157,208,208,36,premenopausal,Y,N,Positive,Negative,0,79,83,1,1,28.4,Liver,-4,Liver
+157,208,208,36,premenopausal,Y,N,Positive,Negative,0,117,121,1,1,23.1,Liver,-4,Liver
+159,210,210,46,postmenopausal,Y,Y,Negative,Negative,1,-13,0,1,1,26.3,Liver,-13,Liver
+159,210,210,46,postmenopausal,Y,Y,Negative,Negative,1,47,60,1,1,49,Liver,-13,Liver
+160,211,211,52,other,Y,Y,Negative,Negative,0,-3,0,1,1,32.2,Breast,-3,Breast
+160,211,211,52,other,Y,Y,Negative,Negative,0,36,39,1,1,38.4,Breast,-3,Breast
+160,211,211,52,other,Y,Y,Negative,Negative,0,64,67,1,1,42.2,Breast,-3,Breast
+161,212,212,61,other,Y,Y,Negative,UNK,1,-15,0,1,1,38,Mediastinum,-15,Mediastinum
+161,212,212,61,other,Y,Y,Negative,UNK,1,36,51,1,1,54.1,Mediastinum,-15,Mediastinum
+161,212,212,61,other,Y,Y,Negative,UNK,1,73,88,1,1,56.2,Mediastinum,-15,Mediastinum
+161,212,212,61,other,Y,Y,Negative,UNK,1,119,134,1,1,45.1,Mediastinum,-15,Mediastinum
+162,213,213,45,premenopausal,Y,N,UNK,UNK,1,-13,0,1,1,34.5,Liver,-13,Liver
+162,213,213,45,premenopausal,Y,N,UNK,UNK,1,34,47,1,1,47.9,Liver,-13,Liver
+162,213,213,45,premenopausal,Y,N,UNK,UNK,1,69,82,1,1,72.2,Liver,-13,Liver
+163,214,214,55,other,Y,N,Negative,UNK,0,0,0,1,1,29.9,Breast,0,Breast
+163,214,214,55,other,Y,N,Negative,UNK,0,35,35,1,1,29.7,Breast,0,Breast
+163,214,214,55,other,Y,N,Negative,UNK,0,66,66,1,1,29.6,Breast,0,Breast
+164,215,215,52,other,Y,N,UNK,UNK,1,-5,0,1,1,29,Lung,-5,Lung
+164,215,215,52,other,Y,N,UNK,UNK,1,48,53,1,1,27.3,Lung,-5,Lung
+165,217,217,51,other,Y,N,Negative,Negative,0,0,0,1,1,83.4,Lymph nodes,0,Lymph nodes
+165,217,217,51,other,Y,N,Negative,Negative,0,40,40,1,1,62.2,Lymph nodes,0,Lymph nodes
+165,217,217,51,other,Y,N,Negative,Negative,0,65,65,1,1,43.2,Lymph nodes,0,Lymph nodes
+165,217,217,51,other,Y,N,Negative,Negative,0,106,106,1,1,45.6,Lymph nodes,0,Lymph nodes
+166,218,218,61,other,Y,Y,UNK,UNK,0,0,0,1,1,65.6,Breast,0,Breast
+166,218,218,61,other,Y,Y,UNK,UNK,0,35,35,1,1,68.8,Breast,0,Breast
+166,218,218,61,other,Y,Y,UNK,UNK,0,63,63,1,1,69.4,Breast,0,Breast
+166,218,218,61,other,Y,Y,UNK,UNK,0,105,105,1,1,67.7,Breast,0,Breast
+167,219,219,30,premenopausal,N,N,Negative,Negative,1,-9,0,1,1,66.8,Mediastinum,-9,Mediastinum
+167,219,219,30,premenopausal,N,N,Negative,Negative,1,39,48,1,1,70.4,Mediastinum,-9,Mediastinum
+168,220,220,65,other,Y,Y,Positive,Negative,1,-13,0,1,1,22.9,Lung,-13,Lung
+168,220,220,65,other,Y,Y,Positive,Negative,1,36,49,1,1,14.4,Lung,-13,Lung
+168,220,220,65,other,Y,Y,Positive,Negative,1,64,77,1,1,12.1,Lung,-13,Lung
+168,220,220,65,other,Y,Y,Positive,Negative,1,106,119,1,1,11.5,Lung,-13,Lung
+169,221,221,53,other,Y,Y,Negative,UNK,0,-12,0,1,1,49.1,Lymph nodes,-12,Lymph nodes
+169,221,221,53,other,Y,Y,Negative,UNK,0,43,55,1,1,62.7,Lymph nodes,-12,Lymph nodes
+170,223,223,62,other,Y,Y,Positive,Positive,0,-11,0,1,1,25.7,Lymph nodes,-11,Lymph nodes
+170,223,223,62,other,Y,Y,Positive,Positive,0,36,47,1,1,22.9,Lymph nodes,-11,Lymph nodes
+170,223,223,62,other,Y,Y,Positive,Positive,0,65,76,1,1,20.5,Lymph nodes,-11,Lymph nodes
+170,223,223,62,other,Y,Y,Positive,Positive,0,107,118,1,1,20.7,Lymph nodes,-11,Lymph nodes
+171,224,224,66,other,Y,N,Negative,Negative,1,-5,0,1,1,65.9,Liver,-5,Liver
+171,224,224,66,other,Y,N,Negative,Negative,1,35,40,1,1,64.5,Liver,-5,Liver
+172,226,226,45,premenopausal,Y,Y,Positive,Positive,1,-1,0,1,1,63.4,Breast,-1,Breast
+172,226,226,45,premenopausal,Y,Y,Positive,Positive,1,34,35,1,1,58.1,Breast,-1,Breast
+173,227,227,43,premenopausal,Y,Y,UNK,UNK,1,-12,0,1,1,63.1,Breast,-12,Breast
+173,227,227,43,premenopausal,Y,Y,UNK,UNK,1,42,54,1,1,42,Breast,-12,Breast
+174,2,2,57,postmenopausal,N,Y,UNK,UNK,0,-3,0,2,1,22.3,Liver,-3,Liver
+174,2,2,57,postmenopausal,N,Y,UNK,UNK,0,39,42,2,1,24.3,Liver,-3,Liver
+174,2,2,57,postmenopausal,N,Y,UNK,UNK,0,68,71,2,1,26,Liver,-3,Liver
+174,2,2,57,postmenopausal,N,Y,UNK,UNK,0,111,114,2,1,27.5,Liver,-3,Liver
+175,3,3,51,postmenopausal,N,N,UNK,UNK,0,0,0,2,1,33.2,Breast,0,Breast
+175,3,3,51,postmenopausal,N,N,UNK,UNK,0,35,35,2,1,32.7,Breast,0,Breast
+175,3,3,51,postmenopausal,N,N,UNK,UNK,0,63,63,2,1,30.1,Breast,0,Breast
+175,3,3,51,postmenopausal,N,N,UNK,UNK,0,106,106,2,1,29.4,Breast,0,Breast
+176,5,5,48,other,Y,Y,Positive,UNK,1,-3,0,2,1,42.9,Liver,-3,Liver
+176,5,5,48,other,Y,Y,Positive,UNK,1,40,43,2,1,37.2,Liver,-3,Liver
+176,5,5,48,other,Y,Y,Positive,UNK,1,68,71,2,1,27.7,Liver,-3,Liver
+176,5,5,48,other,Y,Y,Positive,UNK,1,103,106,2,1,27.6,Liver,-3,Liver
+177,6,6,57,other,N,Y,UNK,UNK,1,-32,0,2,1,27.2,Liver,-32,Liver
+177,6,6,57,other,N,Y,UNK,UNK,1,36,68,2,1,29.5,Liver,-32,Liver
+178,7,7,71,other,N,N,Positive,Positive,1,-22,0,2,1,23.2,Lymph nodes,-22,Lymph nodes
+178,7,7,71,other,N,N,Positive,Positive,1,37,59,2,1,17.5,Lymph nodes,-22,Lymph nodes
+178,7,7,71,other,N,N,Positive,Positive,1,62,84,2,1,14.3,Lymph nodes,-22,Lymph nodes
+179,10,10,46,premenopausal,Y,N,UNK,UNK,1,-7,0,2,1,24.9,Breast,-7,Breast
+179,10,10,46,premenopausal,Y,N,UNK,UNK,1,39,46,2,1,27.5,Breast,-7,Breast
+180,13,13,58,other,Y,N,Negative,UNK,1,-14,0,2,1,51.8,Liver,-14,Liver
+180,13,13,58,other,Y,N,Negative,UNK,1,43,57,2,1,48.8,Liver,-14,Liver
+180,13,13,58,other,Y,N,Negative,UNK,1,64,78,2,1,41.8,Liver,-14,Liver
+180,13,13,58,other,Y,N,Negative,UNK,1,107,121,2,1,41.1,Liver,-14,Liver
+181,14,14,36,premenopausal,Y,N,Negative,Negative,1,-1,0,2,1,20.2,Lymph nodes,-1,Lymph nodes
+181,14,14,36,premenopausal,Y,N,Negative,Negative,1,34,35,2,1,28.7,Lymph nodes,-1,Lymph nodes
+182,18,18,52,other,Y,Y,UNK,UNK,1,0,0,2,1,22.2,Lymph nodes,0,Lymph nodes
+182,18,18,52,other,Y,Y,UNK,UNK,1,43,43,2,1,19.4,Lymph nodes,0,Lymph nodes
+183,19,19,63,other,Y,Y,UNK,UNK,1,-5,0,2,1,74.6,Mediastinum,-5,Mediastinum
+183,19,19,63,other,Y,Y,UNK,UNK,1,36,41,2,1,74.7,Mediastinum,-5,Mediastinum
+183,19,19,63,other,Y,Y,UNK,UNK,1,64,69,2,1,60.6,Mediastinum,-5,Mediastinum
+183,19,19,63,other,Y,Y,UNK,UNK,1,110,115,2,1,72.4,Mediastinum,-5,Mediastinum
+184,21,21,57,other,Y,N,Negative,Negative,0,-4,0,2,1,61.4,Breast,-4,Breast
+184,21,21,57,other,Y,N,Negative,Negative,0,64,68,2,1,60.2,Breast,-4,Breast
+184,21,21,57,other,Y,N,Negative,Negative,0,106,110,2,1,69.9,Breast,-4,Breast
+185,22,22,58,other,N,Y,Positive,UNK,1,-15,0,2,1,87.6,Liver,-15,Liver
+185,22,22,58,other,N,Y,Positive,UNK,1,54,69,2,1,79.8,Liver,-15,Liver
+186,26,26,50,postmenopausal,Y,Y,UNK,UNK,1,0,0,2,1,30.6,Adrenals,0,Other
+186,26,26,50,postmenopausal,Y,Y,UNK,UNK,1,106,106,2,1,31.1,Adrenals,0,Other
+188,31,31,50,postmenopausal,Y,Y,Positive,Negative,0,-20,0,2,1,22,Liver,-20,Liver
+188,31,31,50,postmenopausal,Y,Y,Positive,Negative,0,38,58,2,1,11.3,Liver,-20,Liver
+188,31,31,50,postmenopausal,Y,Y,Positive,Negative,0,63,83,2,1,19.9,Liver,-20,Liver
+189,33,33,54,other,N,Y,UNK,UNK,1,-6,0,2,1,41.6,Liver,-6,Liver
+189,33,33,54,other,N,Y,UNK,UNK,1,36,42,2,1,42.8,Liver,-6,Liver
+189,33,33,54,other,N,Y,UNK,UNK,1,114,120,2,1,52.8,Liver,-6,Liver
+190,34,34,38,postmenopausal,Y,N,UNK,UNK,0,-7,0,2,1,32.2,Liver,-7,Liver
+190,34,34,38,postmenopausal,Y,N,UNK,UNK,0,38,45,2,1,32.1,Liver,-7,Liver
+191,39,39,65,other,Y,Y,Negative,Negative,1,0,0,2,1,27.1,Liver,0,Liver
+191,39,39,65,other,Y,Y,Negative,Negative,1,39,39,2,1,27.4,Liver,0,Liver
+191,39,39,65,other,Y,Y,Negative,Negative,1,82,82,2,1,28.8,Liver,0,Liver
+192,45,45,64,other,Y,Y,UNK,UNK,1,-21,0,2,1,23.3,Lymph nodes,-21,Lymph nodes
+192,45,45,64,other,Y,Y,UNK,UNK,1,37,58,2,1,23.8,Lymph nodes,-21,Lymph nodes
+193,46,46,50,postmenopausal,Y,N,Negative,Negative,1,-1,0,2,1,21.5,Liver,-1,Liver
+193,46,46,50,postmenopausal,Y,N,Negative,Negative,1,41,42,2,1,21.4,Liver,-1,Liver
+194,50,50,56,other,Y,Y,UNK,UNK,0,-3,0,2,1,36,Breast,-3,Breast
+194,50,50,56,other,Y,Y,UNK,UNK,0,38,41,2,1,25,Breast,-3,Breast
+194,50,50,56,other,Y,Y,UNK,UNK,0,73,76,2,1,28.1,Breast,-3,Breast
+194,50,50,56,other,Y,Y,UNK,UNK,0,115,118,2,1,28,Breast,-3,Breast
+195,52,52,83,other,Y,Y,UNK,UNK,1,-3,0,2,1,25.7,Liver,-3,Liver
+195,52,52,83,other,Y,Y,UNK,UNK,1,37,40,2,1,29.44,Liver,-3,Liver
+195,52,52,83,other,Y,Y,UNK,UNK,1,64,67,2,1,26.2,Liver,-3,Liver
+196,54,54,45,postmenopausal,Y,Y,UNK,UNK,1,-1,0,2,1,24.2,Liver,-1,Liver
+196,54,54,45,postmenopausal,Y,Y,UNK,UNK,1,46,47,2,1,23.6,Liver,-1,Liver
+196,54,54,45,postmenopausal,Y,Y,UNK,UNK,1,71,72,2,1,24.9,Liver,-1,Liver
+197,55,55,63,other,Y,N,UNK,UNK,1,-7,0,2,1,48.4,Breast,-7,Breast
+197,55,55,63,other,Y,N,UNK,UNK,1,38,45,2,1,47.5,Breast,-7,Breast
+197,55,55,63,other,Y,N,UNK,UNK,1,73,80,2,1,52.3,Breast,-7,Breast
+197,55,55,63,other,Y,N,UNK,UNK,1,119,126,2,1,48.2,Breast,-7,Breast
+198,58,58,59,other,Y,N,Negative,Negative,0,-14,0,2,1,20.4,Soft tissue/chest wall,-14,Soft tissue/chest wall
+198,58,58,59,other,Y,N,Negative,Negative,0,52,66,2,1,15.5,Soft tissue/chest wall,-14,Soft tissue/chest wall
+198,58,58,59,other,Y,N,Negative,Negative,0,78,92,2,1,6,Soft tissue/chest wall,-14,Soft tissue/chest wall
+198,58,58,59,other,Y,N,Negative,Negative,0,108,122,2,1,7,Soft tissue/chest wall,-14,Soft tissue/chest wall
+199,59,59,53,other,Y,N,Negative,UNK,0,-7,0,2,1,91.6,Other abdominal,-7,Other
+199,59,59,53,other,Y,N,Negative,UNK,0,44,51,2,1,102.7,Other abdominal,-7,Other
+199,59,59,53,other,Y,N,Negative,UNK,0,72,79,2,1,103.9,Other abdominal,-7,Other
+199,59,59,53,other,Y,N,Negative,UNK,0,114,121,2,1,101.4,Other abdominal,-7,Other
+200,60,60,67,other,Y,Y,UNK,UNK,2-3,-8,0,2,1,24.5,Lymph nodes,-8,Lymph nodes
+200,60,60,67,other,Y,Y,UNK,UNK,2-3,36,44,2,1,18.5,Lymph nodes,-8,Lymph nodes
+201,61,61,67,other,Y,Y,Positive,Positive,1,1,0,2,1,23,Soft tissue/chest wall,1,Soft tissue/chest wall
+201,61,61,67,other,Y,Y,Positive,Positive,1,35,34,2,1,18.4,Soft tissue/chest wall,1,Soft tissue/chest wall
+202,62,62,65,other,Y,Y,Negative,Negative,1,-1,0,2,1,55.1,Mediastinum,-1,Mediastinum
+202,62,62,65,other,Y,Y,Negative,Negative,1,40,41,2,1,56,Mediastinum,-1,Mediastinum
+202,62,62,65,other,Y,Y,Negative,Negative,1,71,72,2,1,45.4,Mediastinum,-1,Mediastinum
+202,62,62,65,other,Y,Y,Negative,Negative,1,118,119,2,1,56,Mediastinum,-1,Mediastinum
+203,64,64,38,postmenopausal,Y,Y,UNK,UNK,1,-3,0,2,1,22.7,Liver,-3,Liver
+203,64,64,38,postmenopausal,Y,Y,UNK,UNK,1,41,44,2,1,16.3,Liver,-3,Liver
+203,64,64,38,postmenopausal,Y,Y,UNK,UNK,1,64,67,2,1,7.4,Liver,-3,Liver
+203,64,64,38,postmenopausal,Y,Y,UNK,UNK,1,105,108,2,1,7.8,Liver,-3,Liver
+204,67,67,73,other,Y,Y,UNK,UNK,1,0,0,2,1,42.1,Lymph nodes,0,Lymph nodes
+204,67,67,73,other,Y,Y,UNK,UNK,1,35,35,2,1,45.4,Lymph nodes,0,Lymph nodes
+204,67,67,73,other,Y,Y,UNK,UNK,1,69,69,2,1,40.7,Lymph nodes,0,Lymph nodes
+204,67,67,73,other,Y,Y,UNK,UNK,1,124,124,2,1,43.5,Lymph nodes,0,Lymph nodes
+205,70,70,51,other,N,Y,UNK,UNK,0,-6,0,2,1,22.7,Pleura,-6,Other
+205,70,70,51,other,N,Y,UNK,UNK,0,36,42,2,1,30.4,Pleura,-6,Other
+205,70,70,51,other,N,Y,UNK,UNK,0,85,91,2,1,30,Pleura,-6,Other
+206,72,72,49,premenopausal,Y,N,Negative,Negative,0,-18,0,2,1,37,Lymph nodes,-18,Lymph nodes
+206,72,72,49,premenopausal,Y,N,Negative,Negative,0,42,60,2,1,38.4,Lymph nodes,-18,Lymph nodes
+206,72,72,49,premenopausal,Y,N,Negative,Negative,0,84,102,2,1,26.6,Lymph nodes,-18,Lymph nodes
+207,73,73,55,other,N,N,Positive,Positive,1,0,0,2,1,43.8,Liver,0,Liver
+207,73,73,55,other,N,N,Positive,Positive,1,41,41,2,1,42.1,Liver,0,Liver
+207,73,73,55,other,N,N,Positive,Positive,1,69,69,2,1,40.1,Liver,0,Liver
+207,73,73,55,other,N,N,Positive,Positive,1,111,111,2,1,44.7,Liver,0,Liver
+208,74,74,57,other,Y,N,Negative,Negative,1,-14,0,2,1,34,Lymph nodes,-14,Lymph nodes
+208,74,74,57,other,Y,N,Negative,Negative,1,54,68,2,1,27,Lymph nodes,-14,Lymph nodes
+208,74,74,57,other,Y,N,Negative,Negative,1,78,92,2,1,26.7,Lymph nodes,-14,Lymph nodes
+209,76,76,47,other,Y,N,UNK,UNK,1,-5,0,2,1,31.2,Lung,-5,Lung
+209,76,76,47,other,Y,N,UNK,UNK,1,47,52,2,1,34.4,Lung,-5,Lung
+209,76,76,47,other,Y,N,UNK,UNK,1,75,80,2,1,34.7,Lung,-5,Lung
+209,76,76,47,other,Y,N,UNK,UNK,1,117,122,2,1,34.1,Lung,-5,Lung
+212,79,79,64,other,UNK,Y,UNK,UNK,0,-16,0,2,1,46.6,Liver,-16,Liver
+212,79,79,64,other,UNK,Y,UNK,UNK,0,37,53,2,1,33.4,Liver,-16,Liver
+212,79,79,64,other,UNK,Y,UNK,UNK,0,104,120,2,1,30.8,Liver,-16,Liver
+213,81,81,35,postmenopausal,Y,N,Negative,Negative,1,0,0,2,1,32.9,Liver,0,Liver
+213,81,81,35,postmenopausal,Y,N,Negative,Negative,1,37,37,2,1,46.3,Liver,0,Liver
+214,83,83,52,other,Y,N,Negative,Negative,0,-5,0,2,1,51.2,Liver,-5,Liver
+214,83,83,52,other,Y,N,Negative,Negative,0,37,42,2,1,64.5,Liver,-5,Liver
+215,88,88,36,postmenopausal,Y,N,UNK,UNK,1,-19,0,2,1,39.4,Liver,-19,Liver
+215,88,88,36,postmenopausal,Y,N,UNK,UNK,1,36,55,2,1,37.9,Liver,-19,Liver
+215,88,88,36,postmenopausal,Y,N,UNK,UNK,1,64,83,2,1,31.4,Liver,-19,Liver
+215,88,88,36,postmenopausal,Y,N,UNK,UNK,1,105,124,2,1,39.6,Liver,-19,Liver
+216,90,90,37,premenopausal,Y,N,Negative,Negative,1,-18,0,2,1,45.9,Mediastinum,-18,Mediastinum
+216,90,90,37,premenopausal,Y,N,Negative,Negative,1,45,63,2,1,46.3,Mediastinum,-18,Mediastinum
+217,91,91,55,other,N,N,UNK,UNK,0,-27,0,2,1,99.5,Soft tissue/chest wall,-27,Soft tissue/chest wall
+217,91,91,55,other,N,N,UNK,UNK,0,35,62,2,1,81.3,Soft tissue/chest wall,-27,Soft tissue/chest wall
+217,91,91,55,other,N,N,UNK,UNK,0,68,95,2,1,57,Soft tissue/chest wall,-27,Soft tissue/chest wall
+218,92,92,66,other,Y,N,Negative,UNK,1,-3,0,2,1,77.1,Breast,-3,Breast
+218,92,92,66,other,Y,N,Negative,UNK,1,39,42,2,1,69.2,Breast,-3,Breast
+218,92,92,66,other,Y,N,Negative,UNK,1,69,72,2,1,64.4,Breast,-3,Breast
+218,92,92,66,other,Y,N,Negative,UNK,1,89,92,2,1,68.6,Breast,-3,Breast
+219,94,94,41,other,Y,N,Positive,Positive,0,-12,0,2,1,27.9,Liver,-12,Liver
+219,94,94,41,other,Y,N,Positive,Positive,0,40,52,2,1,29.8,Liver,-12,Liver
+220,95,95,52,other,Y,N,Negative,Negative,1,-3,0,2,1,23.3,Breast,-3,Breast
+220,95,95,52,other,Y,N,Negative,Negative,1,50,53,2,1,13.3,Breast,-3,Breast
+220,95,95,52,other,Y,N,Negative,Negative,1,77,80,2,1,15.7,Breast,-3,Breast
+220,95,95,52,other,Y,N,Negative,Negative,1,119,122,2,1,11,Breast,-3,Breast
+221,98,98,51,postmenopausal,N,N,UNK,UNK,1,-3,0,2,1,20.6,Liver,-3,Liver
+221,98,98,51,postmenopausal,N,N,UNK,UNK,1,35,38,2,1,19.8,Liver,-3,Liver
+221,98,98,51,postmenopausal,N,N,UNK,UNK,1,62,65,2,1,17.6,Liver,-3,Liver
+221,98,98,51,postmenopausal,N,N,UNK,UNK,1,111,114,2,1,18.4,Liver,-3,Liver
+222,101,101,63,other,N,Y,Negative,Negative,0,-1,0,2,1,39.1,Liver,-1,Liver
+222,101,101,63,other,N,Y,Negative,Negative,0,36,37,2,1,28.4,Liver,-1,Liver
+222,101,101,63,other,N,Y,Negative,Negative,0,62,63,2,1,37.8,Liver,-1,Liver
+222,101,101,63,other,N,Y,Negative,Negative,0,106,107,2,1,40.7,Liver,-1,Liver
+223,103,103,59,other,Y,Y,Positive,UNK,0,15,0,2,1,41.1,Lung,15,Lung
+223,103,103,59,other,Y,Y,Positive,UNK,0,36,21,2,1,39.1,Lung,15,Lung
+223,103,103,59,other,Y,Y,Positive,UNK,0,63,48,2,1,36.9,Lung,15,Lung
+223,103,103,59,other,Y,Y,Positive,UNK,0,105,90,2,1,34.8,Lung,15,Lung
+224,105,105,76,other,N,N,UNK,UNK,1,0,0,2,1,20.5,Breast,0,Breast
+224,105,105,76,other,N,N,UNK,UNK,1,31,31,2,1,20.5,Breast,0,Breast
+224,105,105,76,other,N,N,UNK,UNK,1,64,64,2,1,26.7,Breast,0,Breast
+224,105,105,76,other,N,N,UNK,UNK,1,87,87,2,1,34.8,Breast,0,Breast
+225,108,108,57,other,N,N,Negative,UNK,1,-6,0,2,1,20.1,Mediastinum,-6,Mediastinum
+225,108,108,57,other,N,N,Negative,UNK,1,36,42,2,1,15.4,Mediastinum,-6,Mediastinum
+225,108,108,57,other,N,N,Negative,UNK,1,64,70,2,1,9.7,Mediastinum,-6,Mediastinum
+225,108,108,57,other,N,N,Negative,UNK,1,106,112,2,1,6.1,Mediastinum,-6,Mediastinum
+226,110,110,38,other,Y,N,UNK,UNK,0,-5,0,2,1,26.2,Breast,-5,Breast
+226,110,110,38,other,Y,N,UNK,UNK,0,36,41,2,1,14.1,Breast,-5,Breast
+226,110,110,38,other,Y,N,UNK,UNK,0,64,69,2,1,15.4,Breast,-5,Breast
+226,110,110,38,other,Y,N,UNK,UNK,0,106,111,2,1,12.9,Breast,-5,Breast
+227,113,113,47,postmenopausal,Y,Y,UNK,UNK,0,-2,0,2,1,21.3,Lung,-2,Lung
+227,113,113,47,postmenopausal,Y,Y,UNK,UNK,0,37,39,2,1,14,Lung,-2,Lung
+227,113,113,47,postmenopausal,Y,Y,UNK,UNK,0,78,80,2,1,16.6,Lung,-2,Lung
+227,113,113,47,postmenopausal,Y,Y,UNK,UNK,0,121,123,2,1,8.8,Lung,-2,Lung
+228,114,114,43,postmenopausal,Y,N,Positive,Negative,0,-3,0,2,1,34.3,Lymph nodes,-3,Lymph nodes
+228,114,114,43,postmenopausal,Y,N,Positive,Negative,0,36,39,2,1,35.8,Lymph nodes,-3,Lymph nodes
+230,122,122,56,other,Y,N,Negative,Negative,1,0,0,2,1,25.9,Lymph nodes,0,Lymph nodes
+230,122,122,56,other,Y,N,Negative,Negative,1,41,41,2,1,31.7,Lymph nodes,0,Lymph nodes
+231,125,125,49,other,Y,Y,Negative,Negative,1,0,0,2,1,22.1,Lung,0,Lung
+231,125,125,49,other,Y,Y,Negative,Negative,1,36,36,2,1,9.7,Lung,0,Lung
+231,125,125,49,other,Y,Y,Negative,Negative,1,64,64,2,1,9.1,Lung,0,Lung
+231,125,125,49,other,Y,Y,Negative,Negative,1,106,106,2,1,9.5,Lung,0,Lung
+233,127,127,48,other,Y,N,UNK,UNK,1,-6,0,2,1,27.3,Lymph nodes,-6,Lymph nodes
+233,127,127,48,other,Y,N,UNK,UNK,1,42,48,2,1,27.6,Lymph nodes,-6,Lymph nodes
+233,127,127,48,other,Y,N,UNK,UNK,1,64,70,2,1,22.5,Lymph nodes,-6,Lymph nodes
+235,129,129,52,other,Y,N,UNK,UNK,1,0,0,2,1,41,Liver,0,Liver
+235,129,129,52,other,Y,N,UNK,UNK,1,36,36,2,1,36.9,Liver,0,Liver
+236,131,131,65,other,N,Y,UNK,UNK,0,-4,0,2,1,19.7,Mediastinum,-4,Mediastinum
+236,131,131,65,other,N,Y,UNK,UNK,0,39,43,2,1,14.4,Mediastinum,-4,Mediastinum
+236,131,131,65,other,N,Y,UNK,UNK,0,67,71,2,1,15,Mediastinum,-4,Mediastinum
+236,131,131,65,other,N,Y,UNK,UNK,0,109,113,2,1,13.6,Mediastinum,-4,Mediastinum
+238,135,135,60,other,Y,Y,UNK,UNK,1,-31,0,2,1,38.2,Lymph nodes,-31,Lymph nodes
+238,135,135,60,other,Y,Y,UNK,UNK,1,35,66,2,1,41.9,Lymph nodes,-31,Lymph nodes
+238,135,135,60,other,Y,Y,UNK,UNK,1,78,109,2,1,39.7,Lymph nodes,-31,Lymph nodes
+238,135,135,60,other,Y,Y,UNK,UNK,1,124,155,2,1,29.2,Lymph nodes,-31,Lymph nodes
+239,138,138,51,other,Y,N,UNK,UNK,1,-5,0,2,1,32.2,Breast,-5,Breast
+239,138,138,51,other,Y,N,UNK,UNK,1,35,40,2,1,28.3,Breast,-5,Breast
+239,138,138,51,other,Y,N,UNK,UNK,1,64,69,2,1,28.1,Breast,-5,Breast
+239,138,138,51,other,Y,N,UNK,UNK,1,108,113,2,1,20.3,Breast,-5,Breast
+240,141,141,73,other,Y,Y,Positive,UNK,0,-1,0,2,1,36.5,Liver,-1,Liver
+240,141,141,73,other,Y,Y,Positive,UNK,0,41,42,2,1,22.5,Liver,-1,Liver
+240,141,141,73,other,Y,Y,Positive,UNK,0,63,64,2,1,23.6,Liver,-1,Liver
+240,141,141,73,other,Y,Y,Positive,UNK,0,102,103,2,1,15.9,Liver,-1,Liver
+241,144,144,42,premenopausal,Y,Y,Positive,UNK,0,-1,0,2,1,50.1,Liver,-1,Liver
+241,144,144,42,premenopausal,Y,Y,Positive,UNK,0,45,46,2,1,38.4,Liver,-1,Liver
+241,144,144,42,premenopausal,Y,Y,Positive,UNK,0,73,74,2,1,34.5,Liver,-1,Liver
+241,144,144,42,premenopausal,Y,Y,Positive,UNK,0,115,116,2,1,47,Liver,-1,Liver
+242,145,145,50,postmenopausal,Y,Y,UNK,UNK,0,-6,0,2,1,53,Breast,-6,Breast
+242,145,145,50,postmenopausal,Y,Y,UNK,UNK,0,43,49,2,1,55.5,Breast,-6,Breast
+242,145,145,50,postmenopausal,Y,Y,UNK,UNK,0,72,78,2,1,53.1,Breast,-6,Breast
+243,150,150,51,postmenopausal,Y,N,UNK,UNK,1,-3,0,2,1,72.7,Mediastinum,-3,Mediastinum
+243,150,150,51,postmenopausal,Y,N,UNK,UNK,1,37,40,2,1,64.2,Mediastinum,-3,Mediastinum
+243,150,150,51,postmenopausal,Y,N,UNK,UNK,1,67,70,2,1,74.9,Mediastinum,-3,Mediastinum
+243,150,150,51,postmenopausal,Y,N,UNK,UNK,1,109,112,2,1,77.4,Mediastinum,-3,Mediastinum
+244,152,152,46,premenopausal,Y,N,Negative,Negative,1,-3,0,2,1,28.8,Mediastinum,-3,Mediastinum
+244,152,152,46,premenopausal,Y,N,Negative,Negative,1,39,42,2,1,25.5,Mediastinum,-3,Mediastinum
+244,152,152,46,premenopausal,Y,N,Negative,Negative,1,67,70,2,1,22.6,Mediastinum,-3,Mediastinum
+244,152,152,46,premenopausal,Y,N,Negative,Negative,1,111,114,2,1,23.1,Mediastinum,-3,Mediastinum
+245,159,159,40,postmenopausal,Y,Y,UNK,UNK,1,-16,0,2,1,25,Liver,-16,Liver
+245,159,159,40,postmenopausal,Y,Y,UNK,UNK,1,35,51,2,1,31.9,Liver,-16,Liver
+245,159,159,40,postmenopausal,Y,Y,UNK,UNK,1,61,77,2,1,18.3,Liver,-16,Liver
+245,159,159,40,postmenopausal,Y,Y,UNK,UNK,1,103,119,2,1,26.2,Liver,-16,Liver
+246,163,163,66,other,Y,Y,UNK,UNK,1,-8,0,2,1,52,Soft tissue/chest wall,-8,Soft tissue/chest wall
+246,163,163,66,other,Y,Y,UNK,UNK,1,35,43,2,1,45.3,Soft tissue/chest wall,-8,Soft tissue/chest wall
+246,163,163,66,other,Y,Y,UNK,UNK,1,69,77,2,1,65.4,Soft tissue/chest wall,-8,Soft tissue/chest wall
+247,165,165,70,other,Y,N,UNK,UNK,0,-1,0,2,1,21.2,Liver,-1,Liver
+247,165,165,70,other,Y,N,UNK,UNK,0,41,42,2,1,22.8,Liver,-1,Liver
+247,165,165,70,other,Y,N,UNK,UNK,0,77,78,2,1,25.5,Liver,-1,Liver
+247,165,165,70,other,Y,N,UNK,UNK,0,118,119,2,1,33,Liver,-1,Liver
+249,168,168,51,other,Y,N,Negative,UNK,0,-2,0,2,1,35.2,Spleen,-2,Other
+249,168,168,51,other,Y,N,Negative,UNK,0,35,37,2,1,34.6,Spleen,-2,Other
+249,168,168,51,other,Y,N,Negative,UNK,0,67,69,2,1,35.2,Spleen,-2,Other
+251,174,174,67,other,N,Y,Positive,Positive,1,-14,0,2,1,30.5,Liver,-14,Liver
+251,174,174,67,other,N,Y,Positive,Positive,1,43,57,2,1,38,Liver,-14,Liver
+252,177,177,59,other,Y,N,UNK,UNK,1,-6,0,2,1,27.1,Lymph nodes,-6,Lymph nodes
+252,177,177,59,other,Y,N,UNK,UNK,1,34,40,2,1,28.3,Lymph nodes,-6,Lymph nodes
+252,177,177,59,other,Y,N,UNK,UNK,1,57,63,2,1,26.5,Lymph nodes,-6,Lymph nodes
+252,177,177,59,other,Y,N,UNK,UNK,1,103,109,2,1,26.4,Lymph nodes,-6,Lymph nodes
+253,179,179,61,other,Y,Y,Positive,Positive,0,-7,0,2,1,26,Lung,-7,Lung
+253,179,179,61,other,Y,Y,Positive,Positive,0,36,43,2,1,25.4,Lung,-7,Lung
+253,179,179,61,other,Y,Y,Positive,Positive,0,71,78,2,1,20.5,Lung,-7,Lung
+253,179,179,61,other,Y,Y,Positive,Positive,0,118,125,2,1,27.7,Lung,-7,Lung
+254,180,180,46,other,Y,Y,UNK,UNK,1,0,0,2,1,24.5,Lymph nodes,0,Lymph nodes
+254,180,180,46,other,Y,Y,UNK,UNK,1,38,38,2,1,24.5,Lymph nodes,0,Lymph nodes
+254,180,180,46,other,Y,Y,UNK,UNK,1,66,66,2,1,20.3,Lymph nodes,0,Lymph nodes
+254,180,180,46,other,Y,Y,UNK,UNK,1,107,107,2,1,16.3,Lymph nodes,0,Lymph nodes
+255,183,183,52,other,Y,Y,UNK,UNK,1,-5,0,2,1,20.7,Liver,-5,Liver
+255,183,183,52,other,Y,Y,UNK,UNK,1,35,40,2,1,24.2,Liver,-5,Liver
+255,183,183,52,other,Y,Y,UNK,UNK,1,63,68,2,1,34.8,Liver,-5,Liver
+256,184,184,54,other,N,Y,UNK,UNK,1,-22,0,2,1,33.1,Breast,-22,Breast
+256,184,184,54,other,N,Y,UNK,UNK,1,37,59,2,1,34.3,Breast,-22,Breast
+256,184,184,54,other,N,Y,UNK,UNK,1,65,87,2,1,33.3,Breast,-22,Breast
+256,184,184,54,other,N,Y,UNK,UNK,1,114,136,2,1,35,Breast,-22,Breast
+257,187,187,74,other,Y,N,Negative,Negative,0,-2,0,2,1,34.8,Lung,-2,Lung
+257,187,187,74,other,Y,N,Negative,Negative,0,40,42,2,1,24.4,Lung,-2,Lung
+257,187,187,74,other,Y,N,Negative,Negative,0,68,70,2,1,22.1,Lung,-2,Lung
+257,187,187,74,other,Y,N,Negative,Negative,0,110,112,2,1,21.7,Lung,-2,Lung
+258,188,188,82,other,N,Y,Positive,Positive,1,-30,0,2,1,33.2,Liver,-30,Liver
+258,188,188,82,other,N,Y,Positive,Positive,1,40,70,2,1,28.5,Liver,-30,Liver
+258,188,188,82,other,N,Y,Positive,Positive,1,70,100,2,1,29.3,Liver,-30,Liver
+259,189,189,54,other,Y,Y,UNK,UNK,1,-4,0,2,1,52,Liver,-4,Liver
+259,189,189,54,other,Y,Y,UNK,UNK,1,38,42,2,1,55.9,Liver,-4,Liver
+259,189,189,54,other,Y,Y,UNK,UNK,1,69,73,2,1,52.2,Liver,-4,Liver
+259,189,189,54,other,Y,Y,UNK,UNK,1,116,120,2,1,61.8,Liver,-4,Liver
+260,195,195,45,postmenopausal,Y,N,UNK,UNK,1,-2,0,2,1,21.4,Lymph nodes,-2,Lymph nodes
+260,195,195,45,postmenopausal,Y,N,UNK,UNK,1,38,40,2,1,28,Lymph nodes,-2,Lymph nodes
+260,195,195,45,postmenopausal,Y,N,UNK,UNK,1,66,68,2,1,23.8,Lymph nodes,-2,Lymph nodes
+261,197,197,52,premenopausal,Y,N,UNK,UNK,1,0,0,2,1,30,Lymph nodes,0,Lymph nodes
+261,197,197,52,premenopausal,Y,N,UNK,UNK,1,36,36,2,1,25.7,Lymph nodes,0,Lymph nodes
+261,197,197,52,premenopausal,Y,N,UNK,UNK,1,65,65,2,1,18.5,Lymph nodes,0,Lymph nodes
+261,197,197,52,premenopausal,Y,N,UNK,UNK,1,108,108,2,1,7.3,Lymph nodes,0,Lymph nodes
+262,198,198,46,other,Y,Y,UNK,UNK,1,0,0,2,1,35.3,Lymph nodes,0,Lymph nodes
+262,198,198,46,other,Y,Y,UNK,UNK,1,36,36,2,1,23.4,Lymph nodes,0,Lymph nodes
+262,198,198,46,other,Y,Y,UNK,UNK,1,64,64,2,1,22.5,Lymph nodes,0,Lymph nodes
+262,198,198,46,other,Y,Y,UNK,UNK,1,106,106,2,1,22.7,Lymph nodes,0,Lymph nodes
+263,199,199,52,other,N,N,UNK,UNK,1,-20,0,2,1,31.2,Pleura,-20,Other
+263,199,199,52,other,N,N,UNK,UNK,1,39,59,2,1,28.3,Pleura,-20,Other
+263,199,199,52,other,N,N,UNK,UNK,1,64,84,2,1,16.5,Pleura,-20,Other
+263,199,199,52,other,N,N,UNK,UNK,1,109,129,2,1,10.9,Pleura,-20,Other
+264,204,204,57,other,Y,Y,UNK,UNK,0,2,0,2,1,37.2,Liver,2,Liver
+264,204,204,57,other,Y,Y,UNK,UNK,0,52,50,2,1,22.4,Liver,2,Liver
+264,204,204,57,other,Y,Y,UNK,UNK,0,112,110,2,1,24.8,Liver,2,Liver
+265,206,206,42,premenopausal,Y,N,UNK,UNK,0,-4,0,2,1,17.2,Lung,-4,Lung
+265,206,206,42,premenopausal,Y,N,UNK,UNK,0,38,42,2,1,18.6,Lung,-4,Lung
+265,206,206,42,premenopausal,Y,N,UNK,UNK,0,68,72,2,1,13.2,Lung,-4,Lung
+265,206,206,42,premenopausal,Y,N,UNK,UNK,0,109,113,2,1,8.3,Lung,-4,Lung
+266,207,207,46,postmenopausal,Y,N,UNK,UNK,1,-3,0,2,1,38.7,Liver,-3,Liver
+266,207,207,46,postmenopausal,Y,N,UNK,UNK,1,37,40,2,1,36.6,Liver,-3,Liver
+266,207,207,46,postmenopausal,Y,N,UNK,UNK,1,66,69,2,1,37.1,Liver,-3,Liver
+266,207,207,46,postmenopausal,Y,N,UNK,UNK,1,101,104,2,1,32.1,Liver,-3,Liver
+267,208,208,36,premenopausal,Y,N,Positive,Negative,0,-4,0,2,1,25.4,Liver,-4,Liver
+267,208,208,36,premenopausal,Y,N,Positive,Negative,0,45,49,2,1,14.2,Liver,-4,Liver
+267,208,208,36,premenopausal,Y,N,Positive,Negative,0,79,83,2,1,15.3,Liver,-4,Liver
+267,208,208,36,premenopausal,Y,N,Positive,Negative,0,117,121,2,1,19.4,Liver,-4,Liver
+268,209,209,46,premenopausal,Y,N,UNK,UNK,1,-370,0,2,1,34.8,Lymph nodes,-370,Lymph nodes
+268,209,209,46,premenopausal,Y,N,UNK,UNK,1,-329,41,2,1,37.4,Lymph nodes,-370,Lymph nodes
+269,212,212,61,other,Y,Y,Negative,UNK,1,-15,0,2,1,24.6,Lymph nodes,-15,Lymph nodes
+269,212,212,61,other,Y,Y,Negative,UNK,1,36,51,2,1,17.7,Lymph nodes,-15,Lymph nodes
+269,212,212,61,other,Y,Y,Negative,UNK,1,73,88,2,1,15,Lymph nodes,-15,Lymph nodes
+269,212,212,61,other,Y,Y,Negative,UNK,1,119,134,2,1,18.8,Lymph nodes,-15,Lymph nodes
+270,214,214,55,other,Y,N,Negative,UNK,0,0,0,2,1,33.8,Liver,0,Liver
+270,214,214,55,other,Y,N,Negative,UNK,0,35,35,2,1,32.2,Liver,0,Liver
+270,214,214,55,other,Y,N,Negative,UNK,0,66,66,2,1,34.9,Liver,0,Liver
+271,215,215,52,other,Y,N,UNK,UNK,1,-5,0,2,1,27,Lung,-5,Lung
+271,215,215,52,other,Y,N,UNK,UNK,1,48,53,2,1,25.2,Lung,-5,Lung
+272,217,217,51,other,Y,N,Negative,Negative,0,0,0,2,1,26,Lung,0,Lung
+272,217,217,51,other,Y,N,Negative,Negative,0,40,40,2,1,17.8,Lung,0,Lung
+272,217,217,51,other,Y,N,Negative,Negative,0,65,65,2,1,7,Lung,0,Lung
+272,217,217,51,other,Y,N,Negative,Negative,0,106,106,2,1,7.1,Lung,0,Lung
+273,218,218,61,other,Y,Y,UNK,UNK,0,0,0,2,1,49.2,Breast,0,Breast
+273,218,218,61,other,Y,Y,UNK,UNK,0,35,35,2,1,45.9,Breast,0,Breast
+273,218,218,61,other,Y,Y,UNK,UNK,0,63,63,2,1,41.2,Breast,0,Breast
+273,218,218,61,other,Y,Y,UNK,UNK,0,105,105,2,1,44.1,Breast,0,Breast
+275,220,220,65,other,Y,Y,Positive,Negative,1,-13,0,2,1,26.8,Lung,-13,Lung
+275,220,220,65,other,Y,Y,Positive,Negative,1,36,49,2,1,25.9,Lung,-13,Lung
+275,220,220,65,other,Y,Y,Positive,Negative,1,64,77,2,1,30.1,Lung,-13,Lung
+275,220,220,65,other,Y,Y,Positive,Negative,1,106,119,2,1,27.9,Lung,-13,Lung
+276,226,226,45,premenopausal,Y,Y,Positive,Positive,1,-1,0,2,1,18.7,Liver,-1,Liver
+276,226,226,45,premenopausal,Y,Y,Positive,Positive,1,34,35,2,1,17.3,Liver,-1,Liver
+277,227,227,43,premenopausal,Y,Y,UNK,UNK,1,-12,0,2,1,23.1,Lymph nodes,-12,Lymph nodes
+277,227,227,43,premenopausal,Y,Y,UNK,UNK,1,42,54,2,1,15,Lymph nodes,-12,Lymph nodes
+278,2,2,57,postmenopausal,N,Y,UNK,UNK,0,-3,0,3,1,20.1,Liver,-3,Liver
+278,2,2,57,postmenopausal,N,Y,UNK,UNK,0,39,42,3,1,18.4,Liver,-3,Liver
+278,2,2,57,postmenopausal,N,Y,UNK,UNK,0,68,71,3,1,24.4,Liver,-3,Liver
+278,2,2,57,postmenopausal,N,Y,UNK,UNK,0,111,114,3,1,20.6,Liver,-3,Liver
+279,5,5,48,other,Y,Y,Positive,UNK,1,-3,0,3,1,38.9,Liver,-3,Liver
+279,5,5,48,other,Y,Y,Positive,UNK,1,40,43,3,1,17.7,Liver,-3,Liver
+279,5,5,48,other,Y,Y,Positive,UNK,1,68,71,3,1,30,Liver,-3,Liver
+279,5,5,48,other,Y,Y,Positive,UNK,1,103,106,3,1,21.1,Liver,-3,Liver
+280,6,6,57,other,N,Y,UNK,UNK,1,-32,0,3,1,24.1,Liver,-32,Liver
+280,6,6,57,other,N,Y,UNK,UNK,1,36,68,3,1,27.1,Liver,-32,Liver
+281,7,7,71,other,N,N,Positive,Positive,1,-22,0,3,1,28.3,Breast,-22,Breast
+281,7,7,71,other,N,N,Positive,Positive,1,37,59,3,1,24.4,Breast,-22,Breast
+281,7,7,71,other,N,N,Positive,Positive,1,62,84,3,1,23.6,Breast,-22,Breast
+282,10,10,46,premenopausal,Y,N,UNK,UNK,1,-7,0,3,1,123.6,Breast,-7,Breast
+282,10,10,46,premenopausal,Y,N,UNK,UNK,1,39,46,3,1,149.1,Breast,-7,Breast
+283,13,13,58,other,Y,N,Negative,UNK,1,-14,0,3,1,21.9,Liver,-14,Liver
+283,13,13,58,other,Y,N,Negative,UNK,1,43,57,3,1,24.9,Liver,-14,Liver
+283,13,13,58,other,Y,N,Negative,UNK,1,64,78,3,1,27.6,Liver,-14,Liver
+283,13,13,58,other,Y,N,Negative,UNK,1,107,121,3,1,25.4,Liver,-14,Liver
+284,31,31,50,postmenopausal,Y,Y,Positive,Negative,0,-20,0,3,1,21.3,Liver,-20,Liver
+284,31,31,50,postmenopausal,Y,Y,Positive,Negative,0,38,58,3,1,18.2,Liver,-20,Liver
+284,31,31,50,postmenopausal,Y,Y,Positive,Negative,0,63,83,3,1,20.3,Liver,-20,Liver
+285,34,34,38,postmenopausal,Y,N,UNK,UNK,0,-7,0,3,1,54.2,Liver,-7,Liver
+285,34,34,38,postmenopausal,Y,N,UNK,UNK,0,38,45,3,1,57.2,Liver,-7,Liver
+286,39,39,65,other,Y,Y,Negative,Negative,1,0,0,3,1,33.2,Liver,0,Liver
+286,39,39,65,other,Y,Y,Negative,Negative,1,39,39,3,1,36.6,Liver,0,Liver
+286,39,39,65,other,Y,Y,Negative,Negative,1,82,82,3,1,35.2,Liver,0,Liver
+287,45,45,64,other,Y,Y,UNK,UNK,1,-21,0,3,1,21,Lymph nodes,-21,Lymph nodes
+287,45,45,64,other,Y,Y,UNK,UNK,1,37,58,3,1,15.1,Lymph nodes,-21,Lymph nodes
+288,46,46,50,postmenopausal,Y,N,Negative,Negative,1,-1,0,3,1,21.1,Liver,-1,Liver
+288,46,46,50,postmenopausal,Y,N,Negative,Negative,1,41,42,3,1,30.3,Liver,-1,Liver
+289,50,50,56,other,Y,Y,UNK,UNK,0,-3,0,3,1,24.4,Liver,-3,Liver
+289,50,50,56,other,Y,Y,UNK,UNK,0,38,41,3,1,20.5,Liver,-3,Liver
+289,50,50,56,other,Y,Y,UNK,UNK,0,73,76,3,1,13.1,Liver,-3,Liver
+289,50,50,56,other,Y,Y,UNK,UNK,0,115,118,3,1,17.1,Liver,-3,Liver
+290,54,54,45,postmenopausal,Y,Y,UNK,UNK,1,-1,0,3,1,39.1,Liver,-1,Liver
+290,54,54,45,postmenopausal,Y,Y,UNK,UNK,1,46,47,3,1,36.1,Liver,-1,Liver
+290,54,54,45,postmenopausal,Y,Y,UNK,UNK,1,71,72,3,1,36.6,Liver,-1,Liver
+291,59,59,53,other,Y,N,Negative,UNK,0,-7,0,3,1,48.7,Other abdominal,-7,Other
+291,59,59,53,other,Y,N,Negative,UNK,0,44,51,3,1,49.4,Other abdominal,-7,Other
+291,59,59,53,other,Y,N,Negative,UNK,0,72,79,3,1,50.4,Other abdominal,-7,Other
+291,59,59,53,other,Y,N,Negative,UNK,0,114,121,3,1,62.3,Other abdominal,-7,Other
+292,60,60,67,other,Y,Y,UNK,UNK,2-3,-8,0,3,1,22.1,Lymph nodes,-8,Lymph nodes
+292,60,60,67,other,Y,Y,UNK,UNK,2-3,36,44,3,1,21.5,Lymph nodes,-8,Lymph nodes
+293,61,61,67,other,Y,Y,Positive,Positive,1,1,0,3,1,27.9,Mediastinum,1,Mediastinum
+293,61,61,67,other,Y,Y,Positive,Positive,1,35,34,3,1,27.3,Mediastinum,1,Mediastinum
+294,62,62,65,other,Y,Y,Negative,Negative,1,-1,0,3,1,23.5,Mediastinum,-1,Mediastinum
+294,62,62,65,other,Y,Y,Negative,Negative,1,40,41,3,1,27.1,Mediastinum,-1,Mediastinum
+294,62,62,65,other,Y,Y,Negative,Negative,1,71,72,3,1,22.7,Mediastinum,-1,Mediastinum
+294,62,62,65,other,Y,Y,Negative,Negative,1,118,119,3,1,22.3,Mediastinum,-1,Mediastinum
+296,70,70,51,other,N,Y,UNK,UNK,0,-6,0,3,1,30.3,Lung,-6,Lung
+296,70,70,51,other,N,Y,UNK,UNK,0,36,42,3,1,28.6,Lung,-6,Lung
+296,70,70,51,other,N,Y,UNK,UNK,0,85,91,3,1,28.3,Lung,-6,Lung
+297,72,72,49,premenopausal,Y,N,Negative,Negative,0,-18,0,3,1,28,Lymph nodes,-18,Lymph nodes
+297,72,72,49,premenopausal,Y,N,Negative,Negative,0,42,60,3,1,24.7,Lymph nodes,-18,Lymph nodes
+297,72,72,49,premenopausal,Y,N,Negative,Negative,0,84,102,3,1,19.7,Lymph nodes,-18,Lymph nodes
+298,73,73,55,other,N,N,Positive,Positive,1,0,0,3,1,71.5,Liver,0,Liver
+298,73,73,55,other,N,N,Positive,Positive,1,41,41,3,1,63.1,Liver,0,Liver
+298,73,73,55,other,N,N,Positive,Positive,1,69,69,3,1,76.4,Liver,0,Liver
+298,73,73,55,other,N,N,Positive,Positive,1,111,111,3,1,69.4,Liver,0,Liver
+299,76,76,47,other,Y,N,UNK,UNK,1,-5,0,3,1,35.4,Lung,-5,Lung
+299,76,76,47,other,Y,N,UNK,UNK,1,47,52,3,1,34.7,Lung,-5,Lung
+299,76,76,47,other,Y,N,UNK,UNK,1,75,80,3,1,39.9,Lung,-5,Lung
+299,76,76,47,other,Y,N,UNK,UNK,1,117,122,3,1,41.1,Lung,-5,Lung
+302,79,79,64,other,UNK,Y,UNK,UNK,0,-16,0,3,1,50.9,Liver,-16,Liver
+302,79,79,64,other,UNK,Y,UNK,UNK,0,37,53,3,1,40.6,Liver,-16,Liver
+302,79,79,64,other,UNK,Y,UNK,UNK,0,104,120,3,1,28.3,Liver,-16,Liver
+303,81,81,35,postmenopausal,Y,N,Negative,Negative,1,0,0,3,1,50.9,Liver,0,Liver
+303,81,81,35,postmenopausal,Y,N,Negative,Negative,1,37,37,3,1,66,Liver,0,Liver
+304,83,83,52,other,Y,N,Negative,Negative,0,-5,0,3,1,42.2,Liver,-5,Liver
+304,83,83,52,other,Y,N,Negative,Negative,0,37,42,3,1,62.3,Liver,-5,Liver
+305,88,88,36,postmenopausal,Y,N,UNK,UNK,1,-19,0,3,1,42.6,Liver,-19,Liver
+305,88,88,36,postmenopausal,Y,N,UNK,UNK,1,36,55,3,1,28.2,Liver,-19,Liver
+305,88,88,36,postmenopausal,Y,N,UNK,UNK,1,64,83,3,1,29.1,Liver,-19,Liver
+307,94,94,41,other,Y,N,Positive,Positive,0,-12,0,3,1,21.4,Liver,-12,Liver
+307,94,94,41,other,Y,N,Positive,Positive,0,40,52,3,1,19.6,Liver,-12,Liver
+308,95,95,52,other,Y,N,Negative,Negative,1,-3,0,3,1,21.5,Breast,-3,Breast
+308,95,95,52,other,Y,N,Negative,Negative,1,50,53,3,1,13.6,Breast,-3,Breast
+308,95,95,52,other,Y,N,Negative,Negative,1,77,80,3,1,11.1,Breast,-3,Breast
+308,95,95,52,other,Y,N,Negative,Negative,1,119,122,3,1,9,Breast,-3,Breast
+309,105,105,76,other,N,N,UNK,UNK,1,0,0,3,1,22.9,Breast,0,Breast
+309,105,105,76,other,N,N,UNK,UNK,1,31,31,3,1,22.7,Breast,0,Breast
+309,105,105,76,other,N,N,UNK,UNK,1,64,64,3,1,28.5,Breast,0,Breast
+309,105,105,76,other,N,N,UNK,UNK,1,87,87,3,1,35.1,Breast,0,Breast
+310,108,108,57,other,N,N,Negative,UNK,1,-6,0,3,1,27.1,Mediastinum,-6,Mediastinum
+310,108,108,57,other,N,N,Negative,UNK,1,36,42,3,1,20.6,Mediastinum,-6,Mediastinum
+310,108,108,57,other,N,N,Negative,UNK,1,64,70,3,1,12.7,Soft tissue/chest wall,-6,Soft tissue/chest wall
+310,108,108,57,other,N,N,Negative,UNK,1,106,112,3,1,10.3,Mediastinum,-6,Mediastinum
+311,113,113,47,postmenopausal,Y,Y,UNK,UNK,0,-2,0,3,1,41.9,Adrenals,-2,Other
+311,113,113,47,postmenopausal,Y,Y,UNK,UNK,0,37,39,3,1,39.7,Adrenals,-2,Other
+311,113,113,47,postmenopausal,Y,Y,UNK,UNK,0,78,80,3,1,39,Adrenals,-2,Other
+311,113,113,47,postmenopausal,Y,Y,UNK,UNK,0,121,123,3,1,39.2,Adrenals,-2,Other
+312,114,114,43,postmenopausal,Y,N,Positive,Negative,0,-3,0,3,1,31.3,Soft tissue/chest wall,-3,Soft tissue/chest wall
+312,114,114,43,postmenopausal,Y,N,Positive,Negative,0,36,39,3,1,41.1,Soft tissue/chest wall,-3,Soft tissue/chest wall
+313,125,125,49,other,Y,Y,Negative,Negative,1,0,0,3,1,49.2,Liver,0,Liver
+313,125,125,49,other,Y,Y,Negative,Negative,1,36,36,3,1,46.8,Liver,0,Liver
+313,125,125,49,other,Y,Y,Negative,Negative,1,64,64,3,1,56.6,Liver,0,Liver
+313,125,125,49,other,Y,Y,Negative,Negative,1,106,106,3,1,51.5,Liver,0,Liver
+315,131,131,65,other,N,Y,UNK,UNK,0,-4,0,3,1,26.2,Liver,-4,Liver
+315,131,131,65,other,N,Y,UNK,UNK,0,39,43,3,1,17.5,Liver,-4,Liver
+315,131,131,65,other,N,Y,UNK,UNK,0,67,71,3,1,19.3,Liver,-4,Liver
+315,131,131,65,other,N,Y,UNK,UNK,0,109,113,3,1,17.6,Liver,-4,Liver
+316,135,135,60,other,Y,Y,UNK,UNK,1,-31,0,3,1,26.9,Lung,-31,Lung
+316,135,135,60,other,Y,Y,UNK,UNK,1,35,66,3,1,26.4,Lung,-31,Lung
+316,135,135,60,other,Y,Y,UNK,UNK,1,78,109,3,1,20.7,Lung,-31,Lung
+316,135,135,60,other,Y,Y,UNK,UNK,1,124,155,3,1,17.7,Lung,-31,Lung
+317,138,138,51,other,Y,N,UNK,UNK,1,-5,0,3,1,37.7,Liver,-5,Liver
+317,138,138,51,other,Y,N,UNK,UNK,1,35,40,3,1,34.1,Liver,-5,Liver
+317,138,138,51,other,Y,N,UNK,UNK,1,64,69,3,1,26.2,Liver,-5,Liver
+317,138,138,51,other,Y,N,UNK,UNK,1,108,113,3,1,24.2,Liver,-5,Liver
+318,141,141,73,other,Y,Y,Positive,UNK,0,-1,0,3,1,36.5,Liver,-1,Liver
+318,141,141,73,other,Y,Y,Positive,UNK,0,41,42,3,1,33.6,Liver,-1,Liver
+318,141,141,73,other,Y,Y,Positive,UNK,0,63,64,3,1,26,Liver,-1,Liver
+318,141,141,73,other,Y,Y,Positive,UNK,0,102,103,3,1,21.1,Liver,-1,Liver
+319,144,144,42,premenopausal,Y,Y,Positive,UNK,0,-1,0,3,1,62.4,Liver,-1,Liver
+319,144,144,42,premenopausal,Y,Y,Positive,UNK,0,45,46,3,1,42.4,Liver,-1,Liver
+319,144,144,42,premenopausal,Y,Y,Positive,UNK,0,73,74,3,1,42.1,Liver,-1,Liver
+319,144,144,42,premenopausal,Y,Y,Positive,UNK,0,115,116,3,1,43.3,Liver,-1,Liver
+320,145,145,50,postmenopausal,Y,Y,UNK,UNK,0,-6,0,3,1,29.1,Breast,-6,Breast
+320,145,145,50,postmenopausal,Y,Y,UNK,UNK,0,43,49,3,1,30.2,Breast,-6,Breast
+320,145,145,50,postmenopausal,Y,Y,UNK,UNK,0,72,78,3,1,27.2,Breast,-6,Breast
+320,145,145,50,postmenopausal,Y,Y,UNK,UNK,0,125,131,3,1,30.3,Breast,-6,Breast
+321,152,152,46,premenopausal,Y,N,Negative,Negative,1,-3,0,3,1,38.5,Soft tissue/chest wall,-3,Soft tissue/chest wall
+321,152,152,46,premenopausal,Y,N,Negative,Negative,1,39,42,3,1,33.5,Soft tissue/chest wall,-3,Soft tissue/chest wall
+321,152,152,46,premenopausal,Y,N,Negative,Negative,1,67,70,3,1,32.7,Soft tissue/chest wall,-3,Soft tissue/chest wall
+321,152,152,46,premenopausal,Y,N,Negative,Negative,1,111,114,3,1,34.5,Soft tissue/chest wall,-3,Soft tissue/chest wall
+322,159,159,40,postmenopausal,Y,Y,UNK,UNK,1,-16,0,3,1,21.8,Liver,-16,Liver
+322,159,159,40,postmenopausal,Y,Y,UNK,UNK,1,35,51,3,1,33.9,Liver,-16,Liver
+322,159,159,40,postmenopausal,Y,Y,UNK,UNK,1,103,119,3,1,19,Liver,-16,Liver
+323,163,163,66,other,Y,Y,UNK,UNK,1,-8,0,3,1,27,Mediastinum,-8,Mediastinum
+323,163,163,66,other,Y,Y,UNK,UNK,1,35,43,3,1,21.9,Mediastinum,-8,Mediastinum
+323,163,163,66,other,Y,Y,UNK,UNK,1,69,77,3,1,26.3,Mediastinum,-8,Mediastinum
+324,165,165,70,other,Y,N,UNK,UNK,0,-1,0,3,1,20.2,Lymph nodes,-1,Lymph nodes
+324,165,165,70,other,Y,N,UNK,UNK,0,41,42,3,1,18,Lymph nodes,-1,Lymph nodes
+324,165,165,70,other,Y,N,UNK,UNK,0,77,78,3,1,15.6,Lymph nodes,-1,Lymph nodes
+324,165,165,70,other,Y,N,UNK,UNK,0,118,119,3,1,15.6,Lymph nodes,-1,Lymph nodes
+326,168,168,51,other,Y,N,Negative,UNK,0,-2,0,3,1,39,Liver,-2,Liver
+326,168,168,51,other,Y,N,Negative,UNK,0,35,37,3,1,29.2,Liver,-2,Liver
+326,168,168,51,other,Y,N,Negative,UNK,0,67,69,3,1,28,Liver,-2,Liver
+327,174,174,67,other,N,Y,Positive,Positive,1,-14,0,3,1,31.6,Liver,-14,Liver
+327,174,174,67,other,N,Y,Positive,Positive,1,43,57,3,1,26.7,Liver,-14,Liver
+328,188,188,82,other,N,Y,Positive,Positive,1,-30,0,3,1,28.3,Liver,-30,Liver
+328,188,188,82,other,N,Y,Positive,Positive,1,40,70,3,1,25,Liver,-30,Liver
+328,188,188,82,other,N,Y,Positive,Positive,1,70,100,3,1,29.1,Liver,-30,Liver
+329,189,189,54,other,Y,Y,UNK,UNK,1,-4,0,3,1,21.3,Liver,-4,Liver
+329,189,189,54,other,Y,Y,UNK,UNK,1,38,42,3,1,27,Liver,-4,Liver
+329,189,189,54,other,Y,Y,UNK,UNK,1,69,73,3,1,25.8,Liver,-4,Liver
+329,189,189,54,other,Y,Y,UNK,UNK,1,116,120,3,1,22.8,Liver,-4,Liver
+330,195,195,45,postmenopausal,Y,N,UNK,UNK,1,-2,0,3,1,21.4,Lymph nodes,-2,Lymph nodes
+330,195,195,45,postmenopausal,Y,N,UNK,UNK,1,38,40,3,1,20.2,Lymph nodes,-2,Lymph nodes
+330,195,195,45,postmenopausal,Y,N,UNK,UNK,1,66,68,3,1,21.9,Lymph nodes,-2,Lymph nodes
+331,197,197,52,premenopausal,Y,N,UNK,UNK,1,0,0,3,1,52.3,Breast,0,Breast
+331,197,197,52,premenopausal,Y,N,UNK,UNK,1,36,36,3,1,46.8,Breast,0,Breast
+331,197,197,52,premenopausal,Y,N,UNK,UNK,1,65,65,3,1,35.6,Breast,0,Breast
+331,197,197,52,premenopausal,Y,N,UNK,UNK,1,108,108,3,1,37.7,Breast,0,Breast
+332,198,198,46,other,Y,Y,UNK,UNK,1,0,0,3,1,38.3,Lymph nodes,0,Lymph nodes
+332,198,198,46,other,Y,Y,UNK,UNK,1,36,36,3,1,23.9,Lymph nodes,0,Lymph nodes
+332,198,198,46,other,Y,Y,UNK,UNK,1,64,64,3,1,23.5,Lymph nodes,0,Lymph nodes
+332,198,198,46,other,Y,Y,UNK,UNK,1,106,106,3,1,28.9,Lymph nodes,0,Lymph nodes
+333,199,199,52,other,N,N,UNK,UNK,1,-20,0,3,1,40.7,Pleura,-20,Other
+333,199,199,52,other,N,N,UNK,UNK,1,39,59,3,1,29.2,Pleura,-20,Other
+333,199,199,52,other,N,N,UNK,UNK,1,64,84,3,1,20.4,Pleura,-20,Other
+333,199,199,52,other,N,N,UNK,UNK,1,109,129,3,1,14.3,Pleura,-20,Other
+334,204,204,57,other,Y,Y,UNK,UNK,0,2,0,3,1,64.6,Liver,2,Liver
+334,204,204,57,other,Y,Y,UNK,UNK,0,52,50,3,1,48.9,Liver,2,Liver
+334,204,204,57,other,Y,Y,UNK,UNK,0,112,110,3,1,48.8,Liver,2,Liver
+335,207,207,46,postmenopausal,Y,N,UNK,UNK,1,-3,0,3,1,35.1,Liver,-3,Liver
+335,207,207,46,postmenopausal,Y,N,UNK,UNK,1,37,40,3,1,31.2,Liver,-3,Liver
+335,207,207,46,postmenopausal,Y,N,UNK,UNK,1,66,69,3,1,35.1,Liver,-3,Liver
+335,207,207,46,postmenopausal,Y,N,UNK,UNK,1,101,104,3,1,33,Liver,-3,Liver
+336,208,208,36,premenopausal,Y,N,Positive,Negative,0,-4,0,3,1,47.7,Liver,-4,Liver
+336,208,208,36,premenopausal,Y,N,Positive,Negative,0,45,49,3,1,45.7,Liver,-4,Liver
+336,208,208,36,premenopausal,Y,N,Positive,Negative,0,79,83,3,1,52.7,Liver,-4,Liver
+336,208,208,36,premenopausal,Y,N,Positive,Negative,0,117,121,3,1,62.6,Liver,-4,Liver
+337,209,209,46,premenopausal,Y,N,UNK,UNK,1,-370,0,3,1,20.8,Lymph nodes,-370,Lymph nodes
+337,209,209,46,premenopausal,Y,N,UNK,UNK,1,-329,41,3,1,26.8,Lymph nodes,-370,Lymph nodes
+338,214,214,55,other,Y,N,Negative,UNK,0,0,0,3,1,26,Liver,0,Liver
+338,214,214,55,other,Y,N,Negative,UNK,0,35,35,3,1,27.9,Liver,0,Liver
+338,214,214,55,other,Y,N,Negative,UNK,0,66,66,3,1,30.1,Liver,0,Liver
+340,219,219,30,premenopausal,N,N,Negative,Negative,1,-9,0,3,1,51.6,Lung,-9,Lung
+340,219,219,30,premenopausal,N,N,Negative,Negative,1,39,48,3,1,54.7,Lung,-9,Lung
+341,5,5,48,other,Y,Y,Positive,UNK,1,-3,0,4,1,31.1,Liver,-3,Liver
+341,5,5,48,other,Y,Y,Positive,UNK,1,40,43,4,1,32.1,Liver,-3,Liver
+341,5,5,48,other,Y,Y,Positive,UNK,1,68,71,4,1,26.6,Liver,-3,Liver
+341,5,5,48,other,Y,Y,Positive,UNK,1,103,106,4,1,19.5,Liver,-3,Liver
+342,6,6,57,other,N,Y,UNK,UNK,1,-32,0,4,1,24.9,Liver,-32,Liver
+342,6,6,57,other,N,Y,UNK,UNK,1,36,68,4,1,29.9,Liver,-32,Liver
+343,7,7,71,other,N,N,Positive,Positive,1,-22,0,4,1,63.1,Breast,-22,Breast
+343,7,7,71,other,N,N,Positive,Positive,1,37,59,4,1,50.2,Breast,-22,Breast
+343,7,7,71,other,N,N,Positive,Positive,1,62,84,4,1,50.7,Breast,-22,Breast
+345,13,13,58,other,Y,N,Negative,UNK,1,-14,0,4,1,30.5,Liver,-14,Liver
+345,13,13,58,other,Y,N,Negative,UNK,1,43,57,4,1,28.4,Liver,-14,Liver
+345,13,13,58,other,Y,N,Negative,UNK,1,64,78,4,1,26.9,Liver,-14,Liver
+345,13,13,58,other,Y,N,Negative,UNK,1,107,121,4,1,32.6,Liver,-14,Liver
+346,39,39,65,other,Y,Y,Negative,Negative,1,0,0,4,1,31.3,Liver,0,Liver
+346,39,39,65,other,Y,Y,Negative,Negative,1,39,39,4,1,33.9,Liver,0,Liver
+346,39,39,65,other,Y,Y,Negative,Negative,1,82,82,4,1,32.8,Liver,0,Liver
+347,54,54,45,postmenopausal,Y,Y,UNK,UNK,1,-1,0,4,1,37.9,Liver,-1,Liver
+347,54,54,45,postmenopausal,Y,Y,UNK,UNK,1,46,47,4,1,42.1,Liver,-1,Liver
+347,54,54,45,postmenopausal,Y,Y,UNK,UNK,1,71,72,4,1,42.1,Liver,-1,Liver
+348,59,59,53,other,Y,N,Negative,UNK,0,-7,0,4,1,71.4,Other abdominal,-7,Other
+348,59,59,53,other,Y,N,Negative,UNK,0,44,51,4,1,71.7,Other abdominal,-7,Other
+348,59,59,53,other,Y,N,Negative,UNK,0,72,79,4,1,73.6,Other abdominal,-7,Other
+348,59,59,53,other,Y,N,Negative,UNK,0,114,121,4,1,74.7,Other abdominal,-7,Other
+350,64,64,38,postmenopausal,Y,Y,UNK,UNK,1,-3,0,4,1,103.2,Liver,-3,Liver
+350,64,64,38,postmenopausal,Y,Y,UNK,UNK,1,41,44,4,1,81,Liver,-3,Liver
+350,64,64,38,postmenopausal,Y,Y,UNK,UNK,1,64,67,4,1,75.8,Liver,-3,Liver
+350,64,64,38,postmenopausal,Y,Y,UNK,UNK,1,105,108,4,1,64.9,Liver,-3,Liver
+351,73,73,55,other,N,N,Positive,Positive,1,0,0,4,1,61.9,Liver,0,Liver
+351,73,73,55,other,N,N,Positive,Positive,1,41,41,4,1,62.6,Liver,0,Liver
+351,73,73,55,other,N,N,Positive,Positive,1,69,69,4,1,60.1,Liver,0,Liver
+351,73,73,55,other,N,N,Positive,Positive,1,111,111,4,1,59.1,Liver,0,Liver
+353,79,79,64,other,UNK,Y,UNK,UNK,0,-16,0,4,1,36.9,Liver,-16,Liver
+353,79,79,64,other,UNK,Y,UNK,UNK,0,37,53,4,1,38.1,Liver,-16,Liver
+353,79,79,64,other,UNK,Y,UNK,UNK,0,104,120,4,1,27.2,Liver,-16,Liver
+354,81,81,35,postmenopausal,Y,N,Negative,Negative,1,0,0,4,1,50.6,Liver,0,Liver
+354,81,81,35,postmenopausal,Y,N,Negative,Negative,1,37,37,4,1,60.5,Liver,0,Liver
+355,83,83,52,other,Y,N,Negative,Negative,0,-5,0,4,1,45.8,Liver,-5,Liver
+355,83,83,52,other,Y,N,Negative,Negative,0,37,42,4,1,62.5,Liver,-5,Liver
+356,94,94,41,other,Y,N,Positive,Positive,0,-12,0,4,1,27.3,Lymph nodes,-12,Lymph nodes
+356,94,94,41,other,Y,N,Positive,Positive,0,40,52,4,1,22.4,Lymph nodes,-12,Lymph nodes
+357,95,95,52,other,Y,N,Negative,Negative,1,-3,0,4,1,23.9,Breast,-3,Breast
+357,95,95,52,other,Y,N,Negative,Negative,1,50,53,4,1,18.6,Breast,-3,Breast
+357,95,95,52,other,Y,N,Negative,Negative,1,77,80,4,1,14.3,Breast,-3,Breast
+357,95,95,52,other,Y,N,Negative,Negative,1,119,122,4,1,15.5,Breast,-3,Breast
+358,125,125,49,other,Y,Y,Negative,Negative,1,0,0,4,1,42.6,Liver,0,Liver
+358,125,125,49,other,Y,Y,Negative,Negative,1,36,36,4,1,55.6,Liver,0,Liver
+358,125,125,49,other,Y,Y,Negative,Negative,1,64,64,4,1,63,Liver,0,Liver
+358,125,125,49,other,Y,Y,Negative,Negative,1,106,106,4,1,85.4,Liver,0,Liver
+359,126,126,63,other,Y,Y,Positive,Negative,1,-3,0,4,1,40,Mediastinum,-3,Mediastinum
+359,126,126,63,other,Y,Y,Positive,Negative,1,32,35,4,1,41.5,Mediastinum,-3,Mediastinum
+360,135,135,60,other,Y,Y,UNK,UNK,1,-31,0,4,1,34.7,Bone,-31,Other
+360,135,135,60,other,Y,Y,UNK,UNK,1,35,66,4,1,29.6,Bone,-31,Other
+360,135,135,60,other,Y,Y,UNK,UNK,1,78,109,4,1,34.7,Bone,-31,Other
+360,135,135,60,other,Y,Y,UNK,UNK,1,124,155,4,1,32.2,Bone,-31,Other
+361,138,138,51,other,Y,N,UNK,UNK,1,-5,0,4,1,47.8,Liver,-5,Liver
+361,138,138,51,other,Y,N,UNK,UNK,1,35,40,4,1,44.2,Liver,-5,Liver
+361,138,138,51,other,Y,N,UNK,UNK,1,64,69,4,1,41.7,Liver,-5,Liver
+361,138,138,51,other,Y,N,UNK,UNK,1,108,113,4,1,40.3,Liver,-5,Liver
+362,141,141,73,other,Y,Y,Positive,UNK,0,-1,0,4,1,20.1,Liver,-1,Liver
+362,141,141,73,other,Y,Y,Positive,UNK,0,41,42,4,1,18.5,Liver,-1,Liver
+362,141,141,73,other,Y,Y,Positive,UNK,0,63,64,4,1,17.4,Liver,-1,Liver
+362,141,141,73,other,Y,Y,Positive,UNK,0,102,103,4,1,16.8,Liver,-1,Liver
+364,163,163,66,other,Y,Y,UNK,UNK,1,-8,0,4,1,45.3,Soft tissue/chest wall,-8,Soft tissue/chest wall
+364,163,163,66,other,Y,Y,UNK,UNK,1,35,43,4,1,41.1,Soft tissue/chest wall,-8,Soft tissue/chest wall
+364,163,163,66,other,Y,Y,UNK,UNK,1,69,77,4,1,56.8,Soft tissue/chest wall,-8,Soft tissue/chest wall
+365,165,165,70,other,Y,N,UNK,UNK,0,-1,0,4,1,20.7,Lymph nodes,-1,Lymph nodes
+365,165,165,70,other,Y,N,UNK,UNK,0,41,42,4,1,20.2,Lymph nodes,-1,Lymph nodes
+365,165,165,70,other,Y,N,UNK,UNK,0,77,78,4,1,17,Lymph nodes,-1,Lymph nodes
+365,165,165,70,other,Y,N,UNK,UNK,0,118,119,4,1,20.9,Lymph nodes,-1,Lymph nodes
+366,174,174,67,other,N,Y,Positive,Positive,1,-14,0,4,1,22.7,Liver,-14,Liver
+366,174,174,67,other,N,Y,Positive,Positive,1,43,57,4,1,19.9,Liver,-14,Liver
+367,188,188,82,other,N,Y,Positive,Positive,1,-30,0,4,1,22.2,Lymph nodes,-30,Lymph nodes
+367,188,188,82,other,N,Y,Positive,Positive,1,40,70,4,1,16.4,Lymph nodes,-30,Lymph nodes
+367,188,188,82,other,N,Y,Positive,Positive,1,70,100,4,1,15.2,Lymph nodes,-30,Lymph nodes
+368,195,195,45,postmenopausal,Y,N,UNK,UNK,1,-2,0,4,1,37.1,Liver,-2,Liver
+368,195,195,45,postmenopausal,Y,N,UNK,UNK,1,38,40,4,1,36.6,Liver,-2,Liver
+368,195,195,45,postmenopausal,Y,N,UNK,UNK,1,66,68,4,1,34.2,Liver,-2,Liver
+369,197,197,52,premenopausal,Y,N,UNK,UNK,1,0,0,4,1,33,Lymph nodes,0,Lymph nodes
+369,197,197,52,premenopausal,Y,N,UNK,UNK,1,36,36,4,1,23.9,Lymph nodes,0,Lymph nodes
+369,197,197,52,premenopausal,Y,N,UNK,UNK,1,65,65,4,1,17.8,Lymph nodes,0,Lymph nodes
+369,197,197,52,premenopausal,Y,N,UNK,UNK,1,108,108,4,1,11.1,Lymph nodes,0,Lymph nodes
+370,204,204,57,other,Y,Y,UNK,UNK,0,2,0,4,1,40.5,Liver,2,Liver
+370,204,204,57,other,Y,Y,UNK,UNK,0,52,50,4,1,32.9,Liver,2,Liver
+370,204,204,57,other,Y,Y,UNK,UNK,0,112,110,4,1,38.5,Liver,2,Liver
+371,209,209,46,premenopausal,Y,N,UNK,UNK,1,-370,0,4,1,20.6,Lymph nodes,-370,Lymph nodes
+371,209,209,46,premenopausal,Y,N,UNK,UNK,1,-329,41,4,1,25.1,Lymph nodes,-370,Lymph nodes
+372,214,214,55,other,Y,N,Negative,UNK,0,0,0,4,1,34.3,Liver,0,Liver
+372,214,214,55,other,Y,N,Negative,UNK,0,35,35,4,1,34.2,Liver,0,Liver
+372,214,214,55,other,Y,N,Negative,UNK,0,66,66,4,1,27.6,Liver,0,Liver
+374,219,219,30,premenopausal,N,N,Negative,Negative,1,-9,0,4,1,44.1,Lung,-9,Lung
+374,219,219,30,premenopausal,N,N,Negative,Negative,1,39,48,4,1,42.1,Lung,-9,Lung
+375,5,5,48,other,Y,Y,Positive,UNK,1,-3,0,5,1,49,Liver,-3,Liver
+375,5,5,48,other,Y,Y,Positive,UNK,1,40,43,5,1,35.8,Liver,-3,Liver
+375,5,5,48,other,Y,Y,Positive,UNK,1,68,71,5,1,41.1,Liver,-3,Liver
+375,5,5,48,other,Y,Y,Positive,UNK,1,103,106,5,1,42.7,Liver,-3,Liver
+376,6,6,57,other,N,Y,UNK,UNK,1,-32,0,5,1,22.2,Liver,-32,Liver
+376,6,6,57,other,N,Y,UNK,UNK,1,36,68,5,1,26.7,Liver,-32,Liver
+377,59,59,53,other,Y,N,Negative,UNK,0,-7,0,5,1,44.9,Other abdominal,-7,Other
+377,59,59,53,other,Y,N,Negative,UNK,0,44,51,5,1,52.9,Other abdominal,-7,Other
+377,59,59,53,other,Y,N,Negative,UNK,0,72,79,5,1,53,Other abdominal,-7,Other
+377,59,59,53,other,Y,N,Negative,UNK,0,114,121,5,1,47.6,Other abdominal,-7,Other
+378,60,60,67,other,Y,Y,UNK,UNK,2-3,-8,0,5,1,21.7,Lymph nodes,-8,Lymph nodes
+378,60,60,67,other,Y,Y,UNK,UNK,2-3,36,44,5,1,21.3,Lymph nodes,-8,Lymph nodes
+380,73,73,55,other,N,N,Positive,Positive,1,0,0,5,1,35.3,Liver,0,Liver
+380,73,73,55,other,N,N,Positive,Positive,1,41,41,5,1,41.8,Liver,0,Liver
+380,73,73,55,other,N,N,Positive,Positive,1,69,69,5,1,39.6,Liver,0,Liver
+380,73,73,55,other,N,N,Positive,Positive,1,111,111,5,1,41.6,Liver,0,Liver
+382,79,79,64,other,UNK,Y,UNK,UNK,0,-16,0,5,1,24.1,Lymph nodes,-16,Lymph nodes
+382,79,79,64,other,UNK,Y,UNK,UNK,0,37,53,5,1,23.1,Lymph nodes,-16,Lymph nodes
+382,79,79,64,other,UNK,Y,UNK,UNK,0,104,120,5,1,15.9,Lymph nodes,-16,Lymph nodes
+383,81,81,35,postmenopausal,Y,N,Negative,Negative,1,0,0,5,1,20.5,Liver,0,Liver
+383,81,81,35,postmenopausal,Y,N,Negative,Negative,1,37,37,5,1,34.4,Liver,0,Liver
+384,95,95,52,other,Y,N,Negative,Negative,1,-3,0,5,1,55.8,Breast,-3,Breast
+384,95,95,52,other,Y,N,Negative,Negative,1,50,53,5,1,63.4,Breast,-3,Breast
+385,125,125,49,other,Y,Y,Negative,Negative,1,0,0,5,1,84.7,Liver,0,Liver
+385,125,125,49,other,Y,Y,Negative,Negative,1,36,36,5,1,67.4,Liver,0,Liver
+385,125,125,49,other,Y,Y,Negative,Negative,1,64,64,5,1,80.5,Liver,0,Liver
+385,125,125,49,other,Y,Y,Negative,Negative,1,106,106,5,1,55.3,Liver,0,Liver
+386,126,126,63,other,Y,Y,Positive,Negative,1,-3,0,5,1,46.1,Breast,-3,Breast
+386,126,126,63,other,Y,Y,Positive,Negative,1,32,35,5,1,54.7,Breast,-3,Breast
+387,138,138,51,other,Y,N,UNK,UNK,1,-5,0,5,1,29.4,Liver,-5,Liver
+387,138,138,51,other,Y,N,UNK,UNK,1,35,40,5,1,26.6,Liver,-5,Liver
+387,138,138,51,other,Y,N,UNK,UNK,1,64,69,5,1,32.4,Liver,-5,Liver
+387,138,138,51,other,Y,N,UNK,UNK,1,108,113,5,1,27.2,Liver,-5,Liver
+388,141,141,73,other,Y,Y,Positive,UNK,0,-1,0,5,1,22.4,Liver,-1,Liver
+388,141,141,73,other,Y,Y,Positive,UNK,0,41,42,5,1,18.9,Liver,-1,Liver
+388,141,141,73,other,Y,Y,Positive,UNK,0,63,64,5,1,19.6,Liver,-1,Liver
+388,141,141,73,other,Y,Y,Positive,UNK,0,102,103,5,1,18.7,Liver,-1,Liver
+389,174,174,67,other,N,Y,Positive,Positive,1,-14,0,5,1,33.4,Liver,-14,Liver
+389,174,174,67,other,N,Y,Positive,Positive,1,43,57,5,1,33.7,Liver,-14,Liver
+390,188,188,82,other,N,Y,Positive,Positive,1,-30,0,5,1,79.5,Ovaries,-30,Other
+390,188,188,82,other,N,Y,Positive,Positive,1,40,70,5,1,83.5,Ovaries,-30,Other
+390,188,188,82,other,N,Y,Positive,Positive,1,70,100,5,1,80.6,Ovaries,-30,Other
+391,195,195,45,postmenopausal,Y,N,UNK,UNK,1,-2,0,5,1,72.4,Adrenals,-2,Other
+391,195,195,45,postmenopausal,Y,N,UNK,UNK,1,38,40,5,1,47.2,Adrenals,-2,Other
+391,195,195,45,postmenopausal,Y,N,UNK,UNK,1,66,68,5,1,44.1,Adrenals,-2,Other
+392,204,204,57,other,Y,Y,UNK,UNK,0,2,0,5,1,29.5,Liver,2,Liver
+392,204,204,57,other,Y,Y,UNK,UNK,0,52,50,5,1,22.6,Liver,2,Liver
+392,204,204,57,other,Y,Y,UNK,UNK,0,112,110,5,1,24.5,Liver,2,Liver
+393,214,214,55,other,Y,N,Negative,UNK,0,0,0,5,1,27.7,Liver,0,Liver
+393,214,214,55,other,Y,N,Negative,UNK,0,35,35,5,1,34,Liver,0,Liver
+393,214,214,55,other,Y,N,Negative,UNK,0,66,66,5,1,33.7,Liver,0,Liver
+394,215,215,52,other,Y,N,UNK,UNK,1,-5,0,5,1,37.5,Liver,-5,Liver
+394,215,215,52,other,Y,N,UNK,UNK,1,48,53,5,1,48,Liver,-5,Liver
+395,219,219,30,premenopausal,N,N,Negative,Negative,1,-9,0,5,1,29.2,Lung,-9,Lung
+395,219,219,30,premenopausal,N,N,Negative,Negative,1,39,48,5,1,28.9,Lung,-9,Lung
+396,60,60,67,other,Y,Y,UNK,UNK,2-3,-8,0,6,1,22.2,Lymph nodes,-8,Lymph nodes
+396,60,60,67,other,Y,Y,UNK,UNK,2-3,36,44,6,1,21.3,Lymph nodes,-8,Lymph nodes
+397,64,64,38,postmenopausal,Y,Y,UNK,UNK,1,-3,0,6,1,26.9,Liver,-3,Liver
+397,64,64,38,postmenopausal,Y,Y,UNK,UNK,1,41,44,6,1,12.6,Liver,-3,Liver
+397,64,64,38,postmenopausal,Y,Y,UNK,UNK,1,64,67,6,1,14.4,Liver,-3,Liver
+397,64,64,38,postmenopausal,Y,Y,UNK,UNK,1,105,108,6,1,10.4,Liver,-3,Liver
+398,73,73,55,other,N,N,Positive,Positive,1,0,0,6,1,37.2,Lymph nodes,0,Lymph nodes
+398,73,73,55,other,N,N,Positive,Positive,1,41,41,6,1,42.3,Lymph nodes,0,Lymph nodes
+398,73,73,55,other,N,N,Positive,Positive,1,69,69,6,1,34.8,Lymph nodes,0,Lymph nodes
+398,73,73,55,other,N,N,Positive,Positive,1,111,111,6,1,34,Lymph nodes,0,Lymph nodes
+400,79,79,64,other,UNK,Y,UNK,UNK,0,-16,0,6,1,21.5,Soft tissue/chest wall,-16,Soft tissue/chest wall
+400,79,79,64,other,UNK,Y,UNK,UNK,0,37,53,6,1,25,Soft tissue/chest wall,-16,Soft tissue/chest wall
+400,79,79,64,other,UNK,Y,UNK,UNK,0,104,120,6,1,16,Soft tissue/chest wall,-16,Soft tissue/chest wall
+401,138,138,51,other,Y,N,UNK,UNK,1,-5,0,6,1,27.8,Liver,-5,Liver
+401,138,138,51,other,Y,N,UNK,UNK,1,35,40,6,1,28.1,Liver,-5,Liver
+401,138,138,51,other,Y,N,UNK,UNK,1,64,69,6,1,25.1,Liver,-5,Liver
+401,138,138,51,other,Y,N,UNK,UNK,1,108,113,6,1,25.4,Liver,-5,Liver
+402,195,195,45,postmenopausal,Y,N,UNK,UNK,1,-2,0,6,1,22,Adrenals,-2,Other
+402,195,195,45,postmenopausal,Y,N,UNK,UNK,1,38,40,6,1,19.5,Adrenals,-2,Other
+402,195,195,45,postmenopausal,Y,N,UNK,UNK,1,66,68,6,1,16.1,Adrenals,-2,Other
+403,214,214,55,other,Y,N,Negative,UNK,0,0,0,6,1,24.6,Liver,0,Liver
+403,214,214,55,other,Y,N,Negative,UNK,0,35,35,6,1,29.9,Liver,0,Liver
+403,214,214,55,other,Y,N,Negative,UNK,0,66,66,6,1,18.6,Liver,0,Liver
+404,215,215,52,other,Y,N,UNK,UNK,1,-5,0,6,1,57.3,Liver,-5,Liver
+404,215,215,52,other,Y,N,UNK,UNK,1,48,53,6,1,77.2,Liver,-5,Liver
+405,219,219,30,premenopausal,N,N,Negative,Negative,1,-9,0,6,1,24.8,Lung,-9,Lung
+405,219,219,30,premenopausal,N,N,Negative,Negative,1,39,48,6,1,29.2,Lung,-9,Lung
+407,79,79,64,other,UNK,Y,UNK,UNK,0,-16,0,7,1,27.7,Soft tissue/chest wall,-16,Soft tissue/chest wall
+407,79,79,64,other,UNK,Y,UNK,UNK,0,37,53,7,1,26.3,Soft tissue/chest wall,-16,Soft tissue/chest wall
+407,79,79,64,other,UNK,Y,UNK,UNK,0,104,120,7,1,28.5,Soft tissue/chest wall,-16,Soft tissue/chest wall
+408,138,138,51,other,Y,N,UNK,UNK,1,-5,0,7,1,20.2,Liver,-5,Liver
+408,138,138,51,other,Y,N,UNK,UNK,1,35,40,7,1,22.5,Liver,-5,Liver
+408,138,138,51,other,Y,N,UNK,UNK,1,64,69,7,1,20.8,Liver,-5,Liver
+408,138,138,51,other,Y,N,UNK,UNK,1,108,113,7,1,15.4,Liver,-5,Liver
+409,195,195,45,postmenopausal,Y,N,UNK,UNK,1,-2,0,7,1,27,Lymph nodes,-2,Lymph nodes
+409,195,195,45,postmenopausal,Y,N,UNK,UNK,1,38,40,7,1,23,Lymph nodes,-2,Lymph nodes
+409,195,195,45,postmenopausal,Y,N,UNK,UNK,1,66,68,7,1,16.4,Lymph nodes,-2,Lymph nodes
+410,215,215,52,other,Y,N,UNK,UNK,1,-5,0,7,1,57.7,Liver,-5,Liver
+410,215,215,52,other,Y,N,UNK,UNK,1,48,53,7,1,70.7,Liver,-5,Liver
+412,79,79,64,other,UNK,Y,UNK,UNK,0,-16,0,8,1,23.3,Soft tissue/chest wall,-16,Soft tissue/chest wall
+412,79,79,64,other,UNK,Y,UNK,UNK,0,37,53,8,1,19.3,Soft tissue/chest wall,-16,Soft tissue/chest wall
+412,79,79,64,other,UNK,Y,UNK,UNK,0,104,120,8,1,20.4,Soft tissue/chest wall,-16,Soft tissue/chest wall
+413,195,195,45,postmenopausal,Y,N,UNK,UNK,1,-2,0,8,1,55.4,Lymph nodes,-2,Lymph nodes
+413,195,195,45,postmenopausal,Y,N,UNK,UNK,1,38,40,8,1,45.7,Lymph nodes,-2,Lymph nodes
+413,195,195,45,postmenopausal,Y,N,UNK,UNK,1,66,68,8,1,30.1,Lymph nodes,-2,Lymph nodes

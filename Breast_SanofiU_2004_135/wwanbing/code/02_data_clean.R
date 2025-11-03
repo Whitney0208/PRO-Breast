@@ -1,0 +1,471 @@
+rm(list=ls())
+
+library(plyr)
+library(dplyr)
+library(haven)
+library(tidyr)
+library(purrr)
+
+# check dataset
+ae <- read_sas(data_file='ae.sas7bdat') #adverse effect
+batchnum <- read_sas(data_file='batchnum.sas7bdat') #baseline target lesion number and tumor size
+cadiag <- read_sas(data_file='cadiag.sas7bdat') #baseline individual tumor location and size
+caradio <- read_sas(data_file='caradio.sas7bdat') #radio dose and site and time
+casurg <- read_sas(data_file='casurg.sas7bdat') # prior surgery
+chemo <- read_sas(data_file='chemo.sas7bdat') #prior chemo
+clinph <- read_sas(data_file='clinph.sas7bdat') #not useful
+conmeds <- read_sas(data_file='conmeds.sas7bdat') # not useful
+creaclea <- read_sas(data_file='creaclea.sas7bdat')# not useful
+demo <- read_sas(data_file='demo.sas7bdat')
+disposit <- read_sas(data_file='disposit.sas7bdat') # death
+ecg <- read_sas(data_file='ecg.sas7bdat') # not useful
+emplstat <- read_sas(data_file='emplstat.sas7bdat') # employeed status
+enroll <- read_sas(data_file='enroll.sas7bdat') # not useful
+ferccp <- read_sas(data_file='ferccp.sas7bdat') # menopausal
+hormrec <- read_sas(data_file='hormrec.sas7bdat') #hormone receptors
+htwt <- read_sas(data_file='htwt.sas7bdat') #height, weight
+incexc <- read_sas(data_file='incexc.sas7bdat') # not useful
+infcon <- read_sas(data_file='infcon.sas7bdat')# not useful
+invsig <- read_sas(data_file='invsig.sas7bdat')# not useful
+invsigs <- read_sas(data_file='invsigs.sas7bdat') # not useful
+ipopcare <- read_sas(data_file='ipopcare.sas7bdat') # patient hospitalization
+labs <- read_sas(data_file='labs.sas7bdat') # No data
+medhist <- read_sas(data_file='medhist.sas7bdat') #anxiety or depression
+neuroexm <- read_sas(data_file='neuroexm.sas7bdat')# not useful
+normals <- read_sas(data_file='normals.sas7bdat')# not useful
+normals2 <- read_sas(data_file='normals2.sas7bdat')# not useful
+oncadmin <- read_sas(data_file='oncadmin.sas7bdat')# not useful
+oncdeath <- read_sas(data_file='oncdeath.sas7bdat')# death
+othproc <- read_sas(data_file='othproc.sas7bdat')# not useful
+ovrsp <- read_sas(data_file='ovrsp.sas7bdat')
+ovrspirc <- read_sas(data_file='ovrspirc.sas7bdat') # size of bone tumor
+pafustat <- read_sas(data_file='pafustat.sas7bdat') # death, use together with oncdeath
+patwkirc <- read_sas(data_file='patwkirc.sas7bdat') # not useful
+patwork <- read_sas(data_file='patwork.sas7bdat')# not useful
+perfstat <- read_sas(data_file='perfstat.sas7bdat') #PS performance status
+preg <- read_sas(data_file='preg.sas7bdat')# not useful
+qoleq5d <- read_sas(data_file='qoleq5d.sas7bdat') #EQ5D
+qolgen <- read_sas(data_file='qolgen.sas7bdat') #EQLQ-Q30
+qolq <- read_sas(data_file='qolq.sas7bdat') #Questionnaire compliance
+random <- read_sas(data_file='random.sas7bdat')# not useful
+response <- read_sas(data_file='response.sas7bdat') #PFS
+smw <- read_sas(data_file='smw.sas7bdat') # disease progression (reason to drop out)
+source <- read_sas(data_file='source.sas7bdat') # not useful
+timeloss <- read_sas(data_file='timeloss.sas7bdat') # not useful
+tumasirc <- read_sas(data_file='tumasirc.sas7bdat') # all tumor size
+tumasses <- read_sas(data_file='tumasses.sas7bdat') # use this, tumor size
+tumther <- read_sas(data_file='tumther.sas7bdat') #hormone therapy
+vital <- read_sas(data_file='vital.sas7bdat') # not useful
+vsdt <- read_sas(data_file='vsdt.sas7bdat') # not useful
+waiver <- read_sas(data_file='waiver.sas7bdat')# not useful
+waivsig <- read_sas(data_file='waivsig.sas7bdat')# not useful
+
+# demo2
+demo2 <- demo %>%
+  transmute(
+    UID       = RUSUBJID,
+    ID        = RSUBJID,
+    AGE,
+    SEX       = SEX,         
+    RACE      = RACE,
+    ETHNIC    = -999,      # Assign -999 for ETHNIC uniformly
+    REGION    = REGION,
+    ARM       = 0
+  ) %>%
+  mutate(across(everything(), ~ replace_na(.x, -999)))
+
+#cadiag2
+cadiag2 <- cadiag %>%
+  transmute(UID   = RUSUBJID,
+            STAGE = EXTDIS) %>%
+  mutate(
+    STAGE = case_when(
+      STAGE == "Metastatic" ~ "IV",
+      STAGE == "Loco-regional recurrence" ~ "III",
+      TRUE ~ STAGE  # keep NA
+    )
+  )
+
+#emplstat2
+emplstat2 <- emplstat %>%
+  transmute(UID = RUSUBJID, CYCLE, EMPLOY = EMSTAT) %>%
+  mutate(
+    EMPLOY = case_when(
+      EMPLOY == "Unemployed" ~ 0,
+      EMPLOY == "Full time employed" ~ 1,
+      EMPLOY == "Retired" ~ 2,
+      EMPLOY == "Other" ~ 3,
+      EMPLOY == "Part time employed" ~ 4,
+      EMPLOY == "Not done" | EMPLOY == "." ~ -999
+    )
+  ) %>%
+  filter(CYCLE==0)%>%
+  distinct()
+
+emplstat3 <- emplstat2 %>% transmute(UID, EMPLOY)
+
+#ferccp2
+ferccp2 <- ferccp %>%
+  transmute(UID = RUSUBJID,
+    MENOS = NCBSTAT) %>%
+  mutate(
+    MENOS = case_when(
+      MENOS == "Post-menopausal" ~ 3,
+      MENOS == "Surgical sterilization" | MENOS == "Other" ~ 1,
+      MENOS == "." ~ -999
+    )
+  )
+
+#LESION1
+tumor<-read.csv("Breast_SanofiU_2004_135_tumor_18MAR2025.csv")
+tumor2 <- tumor %>%
+  group_by(UID) %>%
+  mutate(LESION1 = sum(LESTYPE == 1, na.rm = TRUE))%>%
+  transmute(UID = UID,
+            LESION1 = LESION1)%>%
+  distinct()
+
+#ECOG
+perfstat2 <- perfstat %>%
+  transmute(UID = RUSUBJID, PSDY, ECOG = PSSTAT) %>%
+  filter(!is.na(PSDY)) %>%
+  group_by(UID) %>%
+  filter(PSDY == min(PSDY, na.rm = TRUE)) %>%
+  mutate(ECOG = case_when(
+    ECOG == 0 ~ 0,
+    ECOG == 1 ~ 1,
+    ECOG %in% c(2, 3) ~ 2,
+    TRUE ~ NA_real_)) %>% 
+  distinct()
+
+perfstat3<-perfstat2 %>%
+  transmute(UID, ECOG)%>%
+  mutate(across(everything(), ~ replace_na(.x, -999)))
+
+# perfstat2 <- perfstat %>%
+#   transmute(UID = RUSUBJID, PSDY, ECOG = PSSTAT) %>%
+#   group_by(UID) %>%
+#   slice_min(order_by = PSDY, with_ties = FALSE, na_rm = TRUE) %>% #Automatically takes the row with the smallest HTWTDY for each UID
+#   mutate(ECOG = case_when(
+#     ECOG == 0 ~ 0,
+#     ECOG == 1 ~ 1,
+#     ECOG %in% c(2, 3) ~ 2,
+#     TRUE ~ NA_real_
+#   ))
+# 
+# perfstat3<-perfstat2 %>%
+#   transmute(UID, ECOG)%>%
+#   mutate(across(everything(), ~ replace_na(.x, -999)))
+
+#CHEMO
+chemo2 <- chemo %>%
+  transmute(UID = RUSUBJID, CTSDY, CHEMO = CTOCCUR) %>% 
+  filter(!is.na(CTSDY)) %>%
+  group_by(UID) %>%
+  filter(CTSDY == min(CTSDY, na.rm = TRUE)) %>%  # select unique UID's CTSDY as baseline
+  mutate(
+      CHEMO = case_when(
+      CHEMO == "." ~ 1,
+      CHEMO == "None" ~ 0
+    )
+  )%>%
+  distinct()
+
+chemo3 <- chemo2 %>%
+  transmute(UID, CHEMO)
+
+# chemo2 <- chemo %>%
+#   transmute(UID = RUSUBJID, CTSDY, CHEMO = CTOCCUR) %>%
+#   filter(!is.na(CTSDY)) %>%
+#   group_by(UID) %>%
+#   slice_min(order_by = CTSDY, with_ties = FALSE, na_rm = TRUE) %>%  
+#   ungroup() %>%
+#   mutate(
+#     CHEMO = case_when(
+#       CHEMO == "." ~ 1,
+#       CHEMO == "None" ~ 0,
+#       TRUE ~ NA_real_  
+#     )
+#   ) 
+# 
+# chemo3 <- chemo2 %>%
+#   transmute(UID, CHEMO)
+
+#SURGERY
+casurg2 <- casurg %>%
+  transmute(UID = RUSUBJID, SURGERY = CSOCCUR) %>%  
+  #filter(!is.na(CSEDY)) %>%
+  group_by(UID) %>%
+  #filter(CSEDY == min(CSEDY, na.rm = TRUE)) %>%  # select unique UID's CSEDY as baseline
+  mutate(
+      SURGERY = case_when(
+      SURGERY == "." ~ 1,
+      SURGERY == "None" ~ 0
+    )
+  )%>%
+  distinct()
+
+#RADIO
+caradio2 <- caradio %>%
+  transmute(UID = RUSUBJID, RADIO = CROCCUR) %>%  
+  #filter(!is.na(CRSDY)) %>%
+  group_by(UID) %>%
+  #filter(CRSDY == min(CRSDY, na.rm = TRUE)) %>%  # select unique UID's CRSDY as baseline
+  mutate(
+      RADIO = case_when(
+      RADIO == "." ~ 1,
+      RADIO == "None" ~ 0
+    )
+  )%>%
+  distinct()
+
+# caradio3 <- caradio2 %>%
+#   transmute(UID, RADIO)
+
+# caradio2 <- caradio %>%
+#   transmute(UID = RUSUBJID, CRSDY, RADIO = CROCCUR) %>%
+#   filter(!is.na(CRSDY)) %>%
+#   group_by(UID) %>%
+#   slice_min(order_by = CRSDY, with_ties = FALSE, na_rm = TRUE) %>%
+#   ungroup() %>%
+#   mutate(
+#     RADIO = case_when(
+#       RADIO == "." ~ 1,
+#       RADIO == "None" ~ 0,
+#       TRUE ~ NA_real_  
+#     )
+#   ) 
+# 
+# caradio3 <- caradio2 %>%
+#   transmute(UID, RADIO)
+
+#HORMON
+tumther2 <- tumther %>%
+  transmute(UID = RUSUBJID, TTSDY, HORMON = TTTYP) %>%
+  filter(!is.na(TTSDY)) %>%
+  group_by(UID) %>%
+  slice_min(order_by = TTSDY, with_ties = FALSE, na_rm = TRUE) %>%
+  ungroup() %>%
+  mutate(
+    HORMON = case_when(
+      HORMON == "Hormonotherapy" ~ 1,
+      HORMON %in% c("Immunotherapy", "Other", "Targeted therapy") ~ 2,
+      HORMON == "." ~ NA_real_,
+      TRUE ~ NA_real_ 
+    )
+  )
+
+tumther3 <- tumther2 %>%
+  transmute(UID, HORMON)
+
+# tumther2 <- tumther %>%
+#   transmute(UID = RUSUBJID, TTSDY, HORMON = TTTYP) %>%
+#   filter(!is.na(TTSDY)) %>%
+#   group_by(UID) %>%
+#   filter(TTSDY == min(TTSDY, na.rm = TRUE)) %>%  # select unique UID's TTSDY as baseline
+#   mutate(
+#     HORMON = case_when(
+#       HORMON == "Hormonotherapy" ~ 1,
+#       HORMON %in% c("Immunotherapy", "Other", "Targeted therapy") ~ 2,
+#       HORMON == "." ~ NA_real_
+#     )
+#   ) %>%
+#   distinct()
+# 
+# tumther3 <- tumther2 %>%
+#   transmute(UID, HORMON)
+
+#ERS PGRS HER2
+hormrec2 <- hormrec %>%
+  filter(HRRECTYP %in% c("Estrogen Receptors", "Progesterone Receptors", "HER-2 Receptors")) %>%
+  transmute(
+    UID = RUSUBJID, 
+    HRRECTYP, 
+    HRRECSTA = case_when(
+      HRRECSTA == "Positive" ~ 1,
+      HRRECSTA == "Negative" ~ 2,
+      HRRECSTA %in% c("Indeterminate", "Not done") ~ 3,
+      HRRECSTA == "." ~ -999,
+      TRUE ~ NA_real_  
+    )
+  ) %>%
+  pivot_wider(names_from = HRRECTYP, values_from = HRRECSTA, names_prefix = "") %>%
+  rename(ERS = 'Estrogen Receptors', PGRS = 'Progesterone Receptors', HER2 = 'HER-2 Receptors') %>%
+  distinct(UID, .keep_all = TRUE)
+  
+#MHDEPRESSION MDANXIETY
+medhist2 <- medhist %>%transmute(
+  UID = RUSUBJID,
+  MHTERM) %>%
+  mutate(
+    MHDEPRESSION = if_else(MHTERM %in% c("BIPOLAR DISORDER", "DEPRESSION", "DEPRESSIVE SYNDROME"), 1, 0),
+    MHANXIETY = if_else(MHTERM %in% c("ANXIETY", "ANXIETY DISORDER", "ANXIETY/NIGHT TERRORS", 
+                                      "ANXIO DEPRESSIF SYNDROM", "BIPOLAR DISORDER"), 1, 0)
+  ) %>%
+  group_by(UID) %>%
+  summarise(
+    MHDEPRESSION = max(MHDEPRESSION),
+    MHANXIETY = max(MHANXIETY)
+  )
+
+#HEIGHT WEIGHT  
+htwt2 <- htwt %>%
+  transmute(
+    UID = RUSUBJID, 
+    HTWTDY,               
+    HEIGHT = HTDV, 
+    WEIGHT = WTDV
+  ) %>%
+  group_by(UID) %>%
+  slice_min(order_by = HTWTDY, with_ties = FALSE, na_rm = TRUE) %>%  # select min HTWTDY as baseline
+  ungroup()
+
+htwt3 <- htwt2 %>%
+  transmute(UID, HEIGHT, WEIGHT)
+
+#DTHDY DTH
+disposit2 <- disposit %>%
+  transmute(
+    UID = RUSUBJID,  
+    DTH = case_when(
+      DSREAS == "Death" ~ 1,
+      DSREAS %in% c("Lost to follow-up", "Other", "Subject did not wish to continue") ~ 0,
+      TRUE ~ -999
+    ),
+    DTHDY = case_when(
+      DSREAS == "Death" ~ DSWK * 7,
+      TRUE ~ -999
+    )
+  )
+
+#PFSDY PFS  
+
+smw2 <- smw %>%
+  transmute(
+    UID = RUSUBJID,
+    PFSDY = case_when(
+      REASWD == "Progressive disease" ~ WDDY,  # Progressive disease -> WDDY
+      REASWD %in% c("Adverse event", "Death", "No longer requires study treatment", 
+                    "Other", "Protocol violation", "Subject did not wish to continue") ~ WDDY,
+      is.na(REASWD) | REASWD == "." ~ -999,  # NA or "." ——> -999
+      TRUE ~ -999 
+    ),
+    PFS = case_when(
+      REASWD == "Progressive disease" ~ 1,  # Progressive disease, PFS = 1
+      REASWD %in% c("Adverse event", "Death", "No longer requires study treatment", 
+                    "Other", "Protocol violation", "Subject did not wish to continue") ~ 0,  #PFS = 0
+      is.na(REASWD) | REASWD == "." ~ -999,  # NA or "." ——> -999
+      TRUE ~ -999  
+  )
+)
+
+# QSFLAG FLAG DV TIME B01--B30
+qolgen2 <- qolgen %>%
+  mutate(QCQID = as.numeric(QCQID)) %>%  # Ensure QCQID is numeric
+  filter(QCQID >= 1 & QCQID <= 30) %>%  # Keep only QCQID between 1 and 30
+  distinct(RUSUBJID, QCQID, QCDY, .keep_all = TRUE)  # Remove duplicates 
+
+### Update eqlq Q29 Q30
+qolgen_long <- qolgen2 %>%
+  mutate(
+    FLAG = as.numeric(QCQID),  # question number
+    QSFLAG = paste0("EORTC QLQ_", sprintf("%03d", FLAG)), 
+    TIME = QCDY,
+    
+    DV = case_when(
+      # For Q29 and Q30, use QCOVER
+      FLAG %in% c(29, 30) ~ as.numeric(QCOVER),
+      
+      # Q01-Q28 QCRESN 
+      QCRESN == "Not at all" ~ 1,
+      QCRESN == "A little" ~ 2,
+      QCRESN == "Quite a bit" ~ 3,
+      QCRESN == "Very much" ~ 4,
+      QCRESN == "." ~ -999,
+      TRUE ~ -999
+    )
+  ) %>%
+  select(RUSUBJID, QSFLAG, FLAG, TIME, DV) %>%
+  distinct()
+
+qolgen_wide <- qolgen2 %>%
+  group_by(RUSUBJID) %>%
+  mutate(
+    min_QCDY = ifelse(all(is.na(QCDY)), -999, min(QCDY, na.rm = TRUE))
+  ) %>%
+  filter(ifelse(min_QCDY == -999, TRUE, QCDY == min_QCDY)) %>%
+  ungroup() %>%
+  mutate(
+    DV = case_when(
+      as.numeric(QCQID) %in% c(29, 30) ~ as.numeric(QCOVER),
+      QCRESN == "Not at all" ~ 1,
+      QCRESN == "A little" ~ 2,
+      QCRESN == "Quite a bit" ~ 3,
+      QCRESN == "Very much" ~ 4,
+      QCRESN == "." ~ -999,
+      TRUE ~ -999
+    )
+  ) %>%
+  select(RUSUBJID, QCQID, DV) %>%
+  mutate(QCQID = paste0("B", sprintf("%02d", as.numeric(QCQID)))) %>%
+  pivot_wider(names_from = QCQID, values_from = DV) %>%
+  mutate(across(everything(), ~ ifelse(is.na(.x), -999, .x)))
+
+# Ensure all missing values are handled
+qolgen_wide <- qolgen_wide %>%
+  mutate(across(everything(), ~ ifelse(is.na(.x), -999, .x)))
+
+# Merge long-format and wide-format datasets
+qolgen_final <- qolgen_long %>%
+  left_join(qolgen_wide, by = "RUSUBJID") %>%
+  rename(UID = RUSUBJID)  # Rename ID variable
+
+# Ensure consistent missing value handling
+qolgen_final <- qolgen_final %>%
+  mutate(across(everything(), ~ ifelse(.x == "", NA, .x))) %>%  # Convert empty strings to NA
+  mutate(
+    across(where(is.numeric), ~ replace_na(.x, -999)),  
+    across(where(is.character), ~ replace_na(.x, "-999"))  
+  )
+
+### Merge data
+### Replace NA values with -999
+
+#demo2 cadiag2 emplstat3 ferccp2 tumor2 perfstat3 chemo3 casurg2 caradio2 tumther3 hormrec2
+final_data <- demo2 %>%
+  left_join(cadiag2,   by = "UID") %>%
+  left_join(emplstat3, by = "UID") %>%
+  left_join(ferccp2,   by = "UID") %>%
+  left_join(tumor2,    by = "UID") %>%
+  left_join(perfstat3, by = "UID") %>%
+  left_join(chemo3,    by = "UID") %>%
+  left_join(casurg2,   by = "UID") %>%
+  left_join(caradio2,  by = "UID") %>%
+  left_join(tumther3,  by = "UID") %>%
+  left_join(hormrec2,  by = "UID") %>%
+  left_join(medhist2,  by = "UID") %>%
+  left_join(htwt3,     by = "UID") %>%
+  left_join(disposit2, by = "UID") %>%
+  left_join(smw2,      by = "UID") %>% 
+  distinct()
+
+final_data2 <- final_data %>%
+  full_join(qolgen_final, by = "UID")   # Perform a full join to keep all IDs
+
+dataset2 <- final_data2 %>%
+  mutate(across(everything(), ~ ifelse(.x == "", NA, .x))) %>%  # Convert empty strings to NA
+  mutate(
+    across(where(is.numeric), ~ replace_na(.x, -999)),  
+    across(where(is.character), ~ replace_na(.x, "-999"))  
+  )%>%
+  arrange(ID, TIME, FLAG)
+
+current_date <- format(Sys.Date(), "%d%b%Y")
+new_filename <- paste0("Breast_SanofiU_2004_135_", toupper(current_date), ".csv")
+
+write.csv(dataset2, new_filename, quote=FALSE,row.names=FALSE)
+
+
+
+
+
